@@ -1,19 +1,66 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/accordion.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze this TSX file which appears to be a custom accordion component implementation using Radix UI primitives.",
-  "timestamp": "2025-07-17T17:03:38.242336",
+  "purpose": "React component file that creates a customizable accordion UI component using Radix UI primitives with Tailwind CSS styling",
+  "timestamp": "2025-07-17T18:11:08.180703",
   "functions": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Accordion",
+      "purpose": "Root accordion container component",
+      "usage": "Direct export of AccordionPrimitive.Root, serves as the parent wrapper for accordion items",
+      "line_number": 0
+    },
+    {
+      "name": "AccordionItem",
+      "purpose": "Individual accordion item container",
+      "usage": "Wraps each accordion section, adds border styling, forwards refs and props",
+      "line_number": 0
+    },
+    {
+      "name": "AccordionTrigger",
+      "purpose": "Clickable header that toggles accordion content",
+      "usage": "Contains the title text and chevron icon, handles open/close interactions with rotation animation",
+      "line_number": 0
+    },
+    {
+      "name": "AccordionContent",
+      "purpose": "Collapsible content area of accordion",
+      "usage": "Contains the expandable content with smooth animation transitions",
+      "line_number": 0
+    }
+  ],
   "classes": [],
-  "dependencies": [],
+  "dependencies": [
+    "react",
+    "@radix-ui/react-accordion",
+    "lucide-react",
+    "@/lib/utils"
+  ],
   "sections": [],
-  "key_points": [],
+  "key_points": [
+    "Wraps Radix UI accordion primitives to create reusable accordion components",
+    "Uses React.forwardRef for proper ref forwarding",
+    "Implements custom styling with Tailwind CSS classes",
+    "Includes smooth animations for expand/collapse transitions",
+    "Exports four components: Accordion, AccordionItem, AccordionTrigger, and AccordionContent"
+  ],
   "image_description": null,
   "metadata": {
-    "patterns": [],
-    "issues": []
+    "patterns": [
+      "Component composition pattern using Radix UI primitives",
+      "forwardRef pattern for proper ref handling in custom components",
+      "CSS-in-JS approach using Tailwind utility classes",
+      "displayName assignment for better debugging experience",
+      "Prop spreading with rest operator for flexibility"
+    ],
+    "issues": [
+      "Hard-coded animation classes (animate-accordion-up/down) require corresponding CSS animations to be defined",
+      "No TypeScript interfaces explicitly defined for component props",
+      "Dependency on external cn utility function for class name merging",
+      "No accessibility enhancements beyond what Radix UI provides by default"
+    ]
   },
-  "tokens_used": 23,
+  "tokens_used": 317,
   "analysis_confidence": 0.9
 }

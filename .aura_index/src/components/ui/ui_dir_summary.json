@@ -2,16 +2,16 @@
   "type": "directory",
   "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui",
   "name": "ui",
-  "timestamp": "2025-07-17T17:06:22.728681",
-  "file_count": 35,
+  "timestamp": "2025-07-17T18:15:25.595799",
+  "file_count": 44,
   "subdirectory_count": 0,
   "subdirectories": [],
   "files": [
     {
       "name": "toast.tsx",
       "type": "code",
-      "purpose": "I'll analyze this TypeScript React component file that implements a toast notification system.",
-      "tokens_used": 16
+      "purpose": "React component library for customizable toast notifications using Radix UI primitives with styling variants",
+      "tokens_used": 417
     },
     {
       "name": "table.tsx",
@@ -22,8 +22,8 @@
     {
       "name": "switch.tsx",
       "type": "code",
-      "purpose": "I'll analyze this TypeScript React component file and provide a detailed summary in JSON format.",
-      "tokens_used": 19
+      "purpose": "I'll analyze the switch.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
     },
     {
       "name": "drawer.tsx",
@@ -34,14 +34,20 @@
     {
       "name": "dialog.tsx",
       "type": "code",
-      "purpose": "A React component library for creating accessible dialog/modal components using Radix UI primitives with custom styling",
-      "tokens_used": 494
+      "purpose": "I'll analyze the dialog.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "skeleton.tsx",
+      "type": "code",
+      "purpose": "A reusable skeleton loading component that displays an animated placeholder while content is being loaded",
+      "tokens_used": 257
     },
     {
       "name": "textarea.tsx",
       "type": "code",
-      "purpose": "Analysis failed",
-      "tokens_used": 0
+      "purpose": "I'll analyze the provided TSX code file and provide a detailed summary in JSON format.",
+      "tokens_used": 19
     },
     {
       "name": "breadcrumb.tsx",
@@ -52,8 +58,8 @@
     {
       "name": "toaster.tsx",
       "type": "code",
-      "purpose": "I'll analyze the toaster.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
+      "purpose": "I'll analyze the TSX code file and provide a detailed summary in JSON format.",
+      "tokens_used": 18
     },
     {
       "name": "card.tsx",
@@ -64,50 +70,74 @@
     {
       "name": "progress.tsx",
       "type": "code",
-      "purpose": "I'll analyze the provided TSX code file and provide a detailed summary in JSON format.",
-      "tokens_used": 19
+      "purpose": "I'll analyze the TSX code file and provide a detailed summary in JSON format.",
+      "tokens_used": 18
     },
     {
       "name": "collapsible.tsx",
-      "type": "code",
-      "purpose": "I'll analyze the TSX file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
-    },
-    {
-      "name": "badge.tsx",
       "type": "code",
       "purpose": "I'll analyze the TSX code file and provide a detailed summary in JSON format.",
       "tokens_used": 18
     },
     {
+      "name": "context-menu.tsx",
+      "type": "code",
+      "purpose": "A React component library for creating context menus using Radix UI primitives with custom styling and Tailwind CSS classes",
+      "tokens_used": 591
+    },
+    {
+      "name": "badge.tsx",
+      "type": "code",
+      "purpose": "Looking at the badge.tsx file, I'll analyze it and provide a detailed summary in JSON format.",
+      "tokens_used": 20
+    },
+    {
       "name": "separator.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the separator.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "select.tsx",
+      "type": "code",
+      "purpose": "I'll analyze this TSX file which appears to be a custom Select component implementation using Radix UI primitives.",
+      "tokens_used": 23
+    },
+    {
+      "name": "use-toast.ts",
+      "type": "code",
+      "purpose": "Re-export module that provides a simplified API for toast notifications by re-exporting toast utilities from a centralized hooks location",
+      "tokens_used": 213
+    },
+    {
+      "name": "radio-group.tsx",
+      "type": "code",
+      "purpose": "Custom radio group UI components built on top of Radix UI's radio group primitives, providing styled and accessible radio button functionality for React applications",
+      "tokens_used": 302
+    },
+    {
+      "name": "aspect-ratio.tsx",
       "type": "code",
       "purpose": "I'll analyze the provided TSX file and provide a detailed summary in JSON format.",
       "tokens_used": 18
     },
     {
-      "name": "use-toast.ts",
-      "type": "code",
-      "purpose": "I'll analyze the TypeScript file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
-    },
-    {
-      "name": "aspect-ratio.tsx",
-      "type": "code",
-      "purpose": "I'll analyze the TypeScript React (TSX) file and provide a detailed JSON summary.",
-      "tokens_used": 16
-    },
-    {
       "name": "input-otp.tsx",
       "type": "code",
-      "purpose": "I'll analyze this TypeScript React component file for an OTP (One-Time Password) input system.",
-      "tokens_used": 18
+      "purpose": "I'll analyze the TypeScript React component file for the OTP (One-Time Password) input UI component.",
+      "tokens_used": 19
+    },
+    {
+      "name": "tabs.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the tabs.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
     },
     {
       "name": "calendar.tsx",
       "type": "code",
-      "purpose": "I'll analyze the calendar.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
+      "purpose": "I'll analyze the calendar.tsx file and provide a detailed JSON summary.",
+      "tokens_used": 14
     },
     {
       "name": "tooltip.tsx",
@@ -118,32 +148,44 @@
     {
       "name": "popover.tsx",
       "type": "code",
-      "purpose": "I'll analyze this TypeScript React component file and provide a detailed summary in JSON format.",
-      "tokens_used": 19
+      "purpose": "I'll analyze this TSX file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
     },
     {
       "name": "scroll-area.tsx",
       "type": "code",
       "purpose": "A React component that provides a customizable scroll area with styled scrollbars using Radix UI's ScrollArea primitive",
-      "tokens_used": 279
+      "tokens_used": 292
+    },
+    {
+      "name": "dropdown-menu.tsx",
+      "type": "code",
+      "purpose": "I'll analyze this TypeScript React component file for dropdown menus and provide a detailed summary in JSON format.",
+      "tokens_used": 23
     },
     {
       "name": "button.tsx",
       "type": "code",
-      "purpose": "I'll analyze the button.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
+      "purpose": "A customizable Button component built with React, featuring multiple style variants and sizes using class-variance-authority for consistent styling",
+      "tokens_used": 306
     },
     {
       "name": "avatar.tsx",
       "type": "code",
-      "purpose": "I'll analyze the avatar.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
+      "purpose": "I'll analyze the TSX code file and provide a detailed summary in JSON format.",
+      "tokens_used": 18
     },
     {
       "name": "checkbox.tsx",
       "type": "code",
-      "purpose": "Looking at this TypeScript React component file, I'll analyze it and provide a detailed summary in JSON format.",
-      "tokens_used": 23
+      "purpose": "A customizable checkbox component built on top of Radix UI's checkbox primitive with Tailwind CSS styling",
+      "tokens_used": 253
+    },
+    {
+      "name": "sidebar.tsx",
+      "type": "code",
+      "purpose": "A comprehensive sidebar component system for React applications with responsive behavior, keyboard shortcuts, and multiple layout variants",
+      "tokens_used": 462
     },
     {
       "name": "hover-card.tsx",
@@ -154,62 +196,74 @@
     {
       "name": "form.tsx",
       "type": "code",
-      "purpose": "I'll analyze the TSX file and provide a detailed summary in the requested JSON format.",
-      "tokens_used": 19
-    },
-    {
-      "name": "label.tsx",
-      "type": "code",
-      "purpose": "I'll analyze the provided TSX file and provide a detailed summary in JSON format.",
+      "purpose": "I'll analyze this TypeScript React form component file and provide a detailed JSON summary.",
       "tokens_used": 18
     },
     {
-      "name": "toggle-group.tsx",
-      "type": "code",
-      "purpose": "A React component that provides a toggle group UI element using Radix UI primitives, allowing users to select one or multiple options from a group of toggle buttons",
-      "tokens_used": 344
-    },
-    {
-      "name": "slider.tsx",
-      "type": "code",
-      "purpose": "I'll analyze the slider.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
-    },
-    {
-      "name": "carousel.tsx",
-      "type": "code",
-      "purpose": "I'll analyze this TypeScript React carousel component file and provide a detailed summary in JSON format.",
-      "tokens_used": 20
-    },
-    {
-      "name": "input.tsx",
-      "type": "code",
-      "purpose": "Looking at this TSX file, I'll analyze it and provide a detailed summary in JSON format.",
-      "tokens_used": 20
-    },
-    {
-      "name": "toggle.tsx",
-      "type": "code",
-      "purpose": "I'll analyze the toggle.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
-    },
-    {
-      "name": "alert.tsx",
-      "type": "code",
-      "purpose": "Defines reusable Alert UI components with customizable variants for displaying notifications or important messages in a React application",
-      "tokens_used": 426
-    },
-    {
-      "name": "resizable.tsx",
+      "name": "label.tsx",
       "type": "code",
       "purpose": "I'll analyze the TSX file and provide a detailed summary in JSON format.",
       "tokens_used": 16
     },
     {
+      "name": "pagination.tsx",
+      "type": "code",
+      "purpose": "Looking at this TypeScript React file, I'll analyze it and provide a detailed summary in JSON format.",
+      "tokens_used": 22
+    },
+    {
+      "name": "toggle-group.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the toggle-group.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "slider.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the provided TSX code file for a slider component and provide a detailed summary in JSON format.",
+      "tokens_used": 24
+    },
+    {
+      "name": "carousel.tsx",
+      "type": "code",
+      "purpose": "A React carousel component built on top of Embla Carousel library, providing a customizable and accessible carousel/slider UI component with navigation controls",
+      "tokens_used": 327
+    },
+    {
+      "name": "chart.tsx",
+      "type": "code",
+      "purpose": "A React component library for creating customizable charts using Recharts, with theme support and consistent styling",
+      "tokens_used": 516
+    },
+    {
+      "name": "input.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the TypeScript React component file and provide a detailed summary in JSON format.",
+      "tokens_used": 19
+    },
+    {
+      "name": "toggle.tsx",
+      "type": "code",
+      "purpose": "A customizable toggle button component built on top of Radix UI's Toggle primitive with variant support using class-variance-authority",
+      "tokens_used": 282
+    },
+    {
+      "name": "alert.tsx",
+      "type": "code",
+      "purpose": "Provides reusable Alert UI components for displaying important messages with different visual variants",
+      "tokens_used": 353
+    },
+    {
+      "name": "resizable.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the resizable.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
       "name": "accordion.tsx",
       "type": "code",
-      "purpose": "I'll analyze this TSX file which appears to be a custom accordion component implementation using Radix UI primitives.",
-      "tokens_used": 23
+      "purpose": "React component file that creates a customizable accordion UI component using Radix UI primitives with Tailwind CSS styling",
+      "tokens_used": 317
     },
     {
       "name": "sonner.tsx",
@@ -218,9 +272,9 @@
       "tokens_used": 18
     }
   ],
-  "total_tokens": 2078,
+  "total_tokens": 5432,
   "file_types": {
-    "code": 35
+    "code": 44
   },
-  "aggregated_purpose": "Directory with 35 files (35 code files)"
+  "aggregated_purpose": "Directory with 44 files (44 code files)"
 }

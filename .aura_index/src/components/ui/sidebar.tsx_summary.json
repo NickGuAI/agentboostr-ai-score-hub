@@ -1,0 +1,105 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/sidebar.tsx",
+  "file_type": "code",
+  "purpose": "A comprehensive sidebar component system for React applications with responsive behavior, keyboard shortcuts, and multiple layout variants",
+  "timestamp": "2025-07-17T18:12:15.650794",
+  "functions": [
+    {
+      "name": "useSidebar",
+      "input_params": [],
+      "output_type": "SidebarContext object",
+      "core_logic": "Custom hook that retrieves sidebar context, throws error if used outside provider",
+      "line_number": 0
+    }
+  ],
+  "variables": [
+    {
+      "name": "SIDEBAR_COOKIE_NAME",
+      "purpose": "Cookie key for storing sidebar state",
+      "usage": "Used to persist sidebar open/closed state across sessions",
+      "line_number": 0
+    },
+    {
+      "name": "SIDEBAR_WIDTH",
+      "purpose": "Default sidebar width on desktop",
+      "usage": "CSS custom property for sidebar sizing (16rem)",
+      "line_number": 0
+    },
+    {
+      "name": "SIDEBAR_WIDTH_MOBILE",
+      "purpose": "Sidebar width on mobile devices",
+      "usage": "CSS custom property for mobile sidebar (18rem)",
+      "line_number": 0
+    },
+    {
+      "name": "SIDEBAR_WIDTH_ICON",
+      "purpose": "Width when sidebar is collapsed to icon mode",
+      "usage": "CSS custom property for collapsed state (3rem)",
+      "line_number": 0
+    },
+    {
+      "name": "SIDEBAR_KEYBOARD_SHORTCUT",
+      "purpose": "Keyboard key for toggle shortcut",
+      "usage": "Combined with Cmd/Ctrl to toggle sidebar (key: 'b')",
+      "line_number": 0
+    },
+    {
+      "name": "SidebarContext",
+      "purpose": "React context for sidebar state management",
+      "usage": "Provides state, open status, and toggle functions to child components",
+      "line_number": 0
+    },
+    {
+      "name": "sidebarMenuButtonVariants",
+      "purpose": "CVA configuration for menu button styling",
+      "usage": "Defines variant and size options for SidebarMenuButton component",
+      "line_number": 0
+    }
+  ],
+  "classes": [],
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "lucide-react",
+    "@/hooks/use-mobile",
+    "@/lib/utils",
+    "@/components/ui/button",
+    "@/components/ui/input",
+    "@/components/ui/separator",
+    "@/components/ui/sheet",
+    "@/components/ui/skeleton",
+    "@/components/ui/tooltip"
+  ],
+  "sections": [],
+  "key_points": [
+    "Implements a collapsible sidebar with mobile responsiveness",
+    "Supports keyboard shortcuts (Cmd/Ctrl+B) for toggling",
+    "Persists sidebar state in cookies",
+    "Provides multiple sidebar variants (sidebar, floating, inset)",
+    "Includes tooltip support for collapsed state",
+    "Uses React Context for state management",
+    "Built with Radix UI primitives and class-variance-authority"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Compound Component Pattern - multiple related components work together",
+      "Context API for state management across component tree",
+      "forwardRef for proper ref forwarding in all components",
+      "CSS custom properties for dynamic styling",
+      "Mobile-first responsive design with useIsMobile hook",
+      "Accessibility features (ARIA labels, keyboard navigation)",
+      "Cookie-based state persistence"
+    ],
+    "issues": [
+      "Cookie-based state might not sync across different browser tabs immediately",
+      "No error boundary for context provider failures",
+      "Hard-coded cookie max age might not suit all use cases",
+      "No built-in animation/transition callbacks for state changes",
+      "Keyboard shortcut might conflict with browser or OS shortcuts",
+      "No built-in support for RTL layouts beyond basic side switching"
+    ]
+  },
+  "tokens_used": 462,
+  "analysis_confidence": 0.9
+}

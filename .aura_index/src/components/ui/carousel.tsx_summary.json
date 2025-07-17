@@ -1,19 +1,62 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/carousel.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze this TypeScript React carousel component file and provide a detailed summary in JSON format.",
-  "timestamp": "2025-07-17T17:05:07.789559",
-  "functions": [],
-  "variables": [],
+  "purpose": "A React carousel component built on top of Embla Carousel library, providing a customizable and accessible carousel/slider UI component with navigation controls",
+  "timestamp": "2025-07-17T18:13:04.426249",
+  "functions": [
+    {
+      "name": "useCarousel",
+      "input_params": [],
+      "output_type": "CarouselContextProps",
+      "core_logic": "Custom hook that consumes the CarouselContext to access carousel state and methods. Throws error if used outside Carousel component",
+      "line_number": 0
+    }
+  ],
+  "variables": [
+    {
+      "name": "CarouselContext",
+      "purpose": "React context for sharing carousel state and methods between components",
+      "usage": "Provides carouselRef, api, navigation methods, and scroll state to child components",
+      "line_number": 0
+    }
+  ],
   "classes": [],
-  "dependencies": [],
+  "dependencies": [
+    "react",
+    "embla-carousel-react",
+    "lucide-react (ArrowLeft, ArrowRight icons)",
+    "@/lib/utils (cn utility)",
+    "@/components/ui/button"
+  ],
   "sections": [],
-  "key_points": [],
+  "key_points": [
+    "Uses Embla Carousel as the underlying carousel engine",
+    "Implements compound component pattern with Context API",
+    "Supports both horizontal and vertical orientations",
+    "Provides keyboard navigation (arrow keys)",
+    "Includes previous/next navigation buttons with disabled states",
+    "Fully accessible with ARIA attributes",
+    "Uses React.forwardRef for all components"
+  ],
   "image_description": null,
   "metadata": {
-    "patterns": [],
-    "issues": []
+    "patterns": [
+      "Compound Component Pattern - Main component (Carousel) with related sub-components (CarouselContent, CarouselItem, etc.)",
+      "Context API for state management between components",
+      "ForwardRef pattern for all components to support ref forwarding",
+      "Custom hook pattern (useCarousel) for consuming context",
+      "Controlled component pattern with setApi prop",
+      "Event listener cleanup in useEffect"
+    ],
+    "issues": [
+      "Missing cleanup for 'reInit' event listener in useEffect",
+      "No error boundary for carousel failures",
+      "Hard-coded positioning values for navigation buttons (-12, -left-12, etc.) might not work well with all layouts",
+      "No built-in autoplay functionality",
+      "No touch/swipe gesture support configuration exposed",
+      "Context throws error instead of graceful fallback when used incorrectly"
+    ]
   },
-  "tokens_used": 20,
+  "tokens_used": 327,
   "analysis_confidence": 0.9
 }

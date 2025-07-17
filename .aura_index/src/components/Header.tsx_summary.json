@@ -1,19 +1,98 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/Header.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze the Header.tsx file and provide a detailed summary in JSON format.",
-  "timestamp": "2025-07-17T17:05:23.761991",
-  "functions": [],
-  "variables": [],
+  "purpose": "Header component that provides responsive navigation, authentication state display, and language switching for the AgentBoostR AI Score Hub application",
+  "timestamp": "2025-07-17T18:13:59.768944",
+  "functions": [
+    {
+      "name": "Header",
+      "input_params": [],
+      "output_type": "JSX.Element - rendered header component",
+      "core_logic": "Renders a responsive navigation header with desktop/mobile layouts, authentication controls, language switcher, and collapsible mobile menu",
+      "line_number": 0
+    }
+  ],
+  "variables": [
+    {
+      "name": "isMenuOpen",
+      "purpose": "Controls mobile menu visibility",
+      "usage": "State variable toggled by mobile menu button to show/hide navigation on mobile devices",
+      "line_number": 0
+    },
+    {
+      "name": "navigation",
+      "purpose": "Main navigation menu items",
+      "usage": "Array of objects with name and href properties for section anchors, using internationalized labels",
+      "line_number": 0
+    },
+    {
+      "name": "projectNavigation",
+      "purpose": "Project-specific navigation items",
+      "usage": "Array of objects with name and to properties for React Router navigation, includes demo test link",
+      "line_number": 0
+    },
+    {
+      "name": "user",
+      "purpose": "Current authenticated user object",
+      "usage": "Destructured from useAuth hook to conditionally render login/logout UI",
+      "line_number": 0
+    },
+    {
+      "name": "signOut",
+      "purpose": "Authentication sign out function",
+      "usage": "Destructured from useAuth hook to handle user logout",
+      "line_number": 0
+    },
+    {
+      "name": "loading",
+      "purpose": "Authentication loading state",
+      "usage": "Prevents UI flicker by hiding auth controls while auth state is being determined",
+      "line_number": 0
+    },
+    {
+      "name": "t",
+      "purpose": "Translation function",
+      "usage": "Destructured from useLanguage hook to provide internationalized text",
+      "line_number": 0
+    }
+  ],
   "classes": [],
-  "dependencies": [],
+  "dependencies": [
+    "@/components/ui/button",
+    "lucide-react",
+    "react",
+    "react-router-dom",
+    "@/contexts/LanguageContext",
+    "@/contexts/AuthContext",
+    "./LanguageSwitcher"
+  ],
   "sections": [],
-  "key_points": [],
+  "key_points": [
+    "Sticky header with backdrop blur effect",
+    "Responsive design with mobile menu toggle",
+    "Integrates authentication state from AuthContext",
+    "Supports internationalization through LanguageContext",
+    "Conditional rendering based on user authentication status",
+    "Separate navigation arrays for main links and project-specific routes"
+  ],
   "image_description": null,
   "metadata": {
-    "patterns": [],
-    "issues": []
+    "patterns": [
+      "Responsive design pattern with separate desktop and mobile layouts",
+      "Context pattern for authentication and language management",
+      "Conditional rendering based on authentication state",
+      "Component composition with imported UI components",
+      "Internationalization pattern with translation keys"
+    ],
+    "issues": [
+      "Hard-coded Chinese text '\u9000\u51fa' and '\ud83d\ude80 \u6f14\u793a\u6d4b\u8bd5' should use translation keys for consistency",
+      "Mobile menu doesn't handle body scroll lock when open",
+      "No keyboard navigation support for mobile menu toggle",
+      "Missing aria-label attributes for accessibility",
+      "No active link highlighting for current route/section",
+      "Authentication loading state could show a skeleton loader instead of hiding controls entirely"
+    ]
   },
-  "tokens_used": 16,
+  "tokens_used": 457,
   "analysis_confidence": 0.9
 }

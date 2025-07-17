@@ -1,0 +1,87 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/DataVisualization.tsx",
+  "file_type": "code",
+  "purpose": "A comprehensive data visualization component for displaying AI project scoring, financial metrics from Stripe, user engagement data from Google Analytics, and AI evaluation results",
+  "timestamp": "2025-07-17T18:13:58.744357",
+  "functions": [
+    {
+      "name": "DataVisualization",
+      "input_params": [
+        "project",
+        "metrics",
+        "ga4Data",
+        "evaluation"
+      ],
+      "output_type": "JSX component rendering data visualizations",
+      "core_logic": "Main component that orchestrates the display of all data sections based on available props",
+      "line_number": 0
+    },
+    {
+      "name": "getGradeColor",
+      "input_params": [
+        "grade: string"
+      ],
+      "output_type": "Tailwind gradient class string",
+      "core_logic": "Maps letter grades (S/A/B/C/D) to corresponding gradient color classes",
+      "line_number": 0
+    },
+    {
+      "name": "formatNumber",
+      "input_params": [
+        "num: number"
+      ],
+      "output_type": "Formatted string (e.g., '1.5M', '2.3K')",
+      "core_logic": "Formats large numbers with K/M suffixes for better readability",
+      "line_number": 0
+    },
+    {
+      "name": "formatCurrency",
+      "input_params": [
+        "amount: number"
+      ],
+      "output_type": "USD currency formatted string",
+      "core_logic": "Formats numbers as USD currency using Intl.NumberFormat",
+      "line_number": 0
+    }
+  ],
+  "variables": [],
+  "classes": [],
+  "dependencies": [
+    "@/components/ui/card",
+    "@/components/ui/badge",
+    "@/components/ui/progress",
+    "lucide-react"
+  ],
+  "sections": [],
+  "key_points": [
+    "Displays project information with AI-generated scores and grades (S/A/B/C/D)",
+    "Shows Stripe financial metrics with 85% weight in scoring",
+    "Shows Google Analytics user engagement data with 15% weight",
+    "Visualizes evaluation dimensions, strengths, weaknesses, and recommendations",
+    "Uses gradient backgrounds and badges for visual hierarchy",
+    "Implements responsive grid layouts for metric cards",
+    "Formats numbers and currency appropriately for display"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Conditional rendering based on data availability",
+      "Responsive grid layouts using Tailwind CSS",
+      "Dark mode support with dual color schemes",
+      "Component composition with UI primitives",
+      "Type-safe props using TypeScript interfaces",
+      "Gradient backgrounds for visual sections",
+      "Color-coded indicators for performance metrics"
+    ],
+    "issues": [
+      "Large component with multiple responsibilities - could be split into smaller sub-components",
+      "Hardcoded Chinese text might need internationalization support",
+      "Complex conditional logic for metric thresholds could be extracted to utility functions",
+      "Missing error handling for edge cases (e.g., division by zero)",
+      "No loading states for async data",
+      "Props are all optional which could lead to unexpected empty states"
+    ]
+  },
+  "tokens_used": 390,
+  "analysis_confidence": 0.9
+}

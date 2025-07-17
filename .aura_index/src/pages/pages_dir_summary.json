@@ -2,22 +2,34 @@
   "type": "directory",
   "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/pages",
   "name": "pages",
-  "timestamp": "2025-07-17T17:06:22.726751",
-  "file_count": 4,
+  "timestamp": "2025-07-17T18:15:25.593478",
+  "file_count": 7,
   "subdirectory_count": 0,
   "subdirectories": [],
   "files": [
     {
+      "name": "CreateProject.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the CreateProject.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "TestSetup.tsx",
+      "type": "code",
+      "purpose": "A test setup page that creates a demo project with mock data to showcase the AI scoring platform's features including Stripe financial integration, Google Analytics integration, and AI evaluation scoring",
+      "tokens_used": 536
+    },
+    {
       "name": "GA4Callback.tsx",
       "type": "code",
-      "purpose": "I'll analyze the GA4Callback.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
+      "purpose": "OAuth callback handler component for Google Analytics 4 integration that processes the authorization response and establishes the connection",
+      "tokens_used": 457
     },
     {
       "name": "NotFound.tsx",
       "type": "code",
-      "purpose": "I'll analyze the provided TSX code file and provide a detailed summary in JSON format.",
-      "tokens_used": 19
+      "purpose": "A React component that displays a 404 error page when users navigate to non-existent routes",
+      "tokens_used": 282
     },
     {
       "name": "Projects.tsx",
@@ -28,13 +40,19 @@
     {
       "name": "Index.tsx",
       "type": "code",
-      "purpose": "Main landing page component that serves as the home page of the application, composing various sections to create a complete page layout",
-      "tokens_used": 266
+      "purpose": "I'll analyze the provided TSX file and provide a detailed summary in JSON format.",
+      "tokens_used": 18
+    },
+    {
+      "name": "StripeCallback.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the StripeCallback.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
     }
   ],
-  "total_tokens": 720,
+  "total_tokens": 1744,
   "file_types": {
-    "code": 4
+    "code": 7
   },
-  "aggregated_purpose": "Directory with 4 files (4 code files)"
+  "aggregated_purpose": "Directory with 7 files (7 code files)"
 }

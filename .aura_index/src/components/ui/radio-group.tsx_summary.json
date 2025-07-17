@@ -1,0 +1,54 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/radio-group.tsx",
+  "file_type": "code",
+  "purpose": "Custom radio group UI components built on top of Radix UI's radio group primitives, providing styled and accessible radio button functionality for React applications",
+  "timestamp": "2025-07-17T18:11:43.278460",
+  "functions": [],
+  "variables": [
+    {
+      "name": "RadioGroup",
+      "purpose": "Container component for grouping radio button items",
+      "usage": "Wraps RadioGroupItem components and manages radio button selection state",
+      "line_number": 0
+    },
+    {
+      "name": "RadioGroupItem",
+      "purpose": "Individual radio button component with custom styling",
+      "usage": "Represents a single selectable option within a RadioGroup",
+      "line_number": 0
+    }
+  ],
+  "classes": [],
+  "dependencies": [
+    "react",
+    "@radix-ui/react-radio-group",
+    "lucide-react",
+    "@/lib/utils"
+  ],
+  "sections": [],
+  "key_points": [
+    "Wraps Radix UI RadioGroup primitives with custom styling",
+    "Uses React.forwardRef for proper ref forwarding",
+    "Implements two components: RadioGroup (container) and RadioGroupItem (individual radio buttons)",
+    "Leverages Tailwind CSS classes for styling through the cn utility",
+    "Provides accessibility features inherited from Radix UI"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Component composition pattern using Radix UI primitives",
+      "forwardRef pattern for ref forwarding to underlying DOM elements",
+      "Spread props pattern for API flexibility",
+      "CSS-in-JS utility function (cn) for conditional class merging",
+      "Display name assignment for better debugging experience"
+    ],
+    "issues": [
+      "Hard-coded styling values (h-4 w-4, h-2.5 w-2.5) might limit customization flexibility",
+      "No TypeScript interfaces or props documentation for component consumers",
+      "Could benefit from size variants (small, medium, large) for different use cases",
+      "Missing ARIA labels or descriptions that might enhance accessibility beyond Radix defaults"
+    ]
+  },
+  "tokens_used": 302,
+  "analysis_confidence": 0.9
+}

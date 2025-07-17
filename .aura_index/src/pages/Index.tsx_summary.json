@@ -1,53 +1,19 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/pages/Index.tsx",
   "file_type": "code",
-  "purpose": "Main landing page component that serves as the home page of the application, composing various sections to create a complete page layout",
-  "timestamp": "2025-07-17T17:05:59.992990",
-  "functions": [
-    {
-      "name": "Index",
-      "input_params": [],
-      "output_type": "JSX.Element - Complete landing page layout",
-      "core_logic": "Renders a vertical stack of landing page sections wrapped in a min-height screen container",
-      "line_number": 0
-    }
-  ],
+  "purpose": "I'll analyze the provided TSX file and provide a detailed summary in JSON format.",
+  "timestamp": "2025-07-17T18:14:15.800031",
+  "functions": [],
   "variables": [],
   "classes": [],
-  "dependencies": [
-    "Header",
-    "HeroSection",
-    "FeaturesSection",
-    "HowItWorksSection",
-    "AgentScoreSection",
-    "PricingSection",
-    "CTASection",
-    "Footer"
-  ],
+  "dependencies": [],
   "sections": [],
-  "key_points": [
-    "Acts as the main index/home page of the application",
-    "Follows a typical landing page structure with header, hero, features, pricing, and footer",
-    "Uses component composition pattern to build the page from smaller components",
-    "All components are imported from the @/components directory using path aliasing"
-  ],
+  "key_points": [],
   "image_description": null,
   "metadata": {
-    "patterns": [
-      "Component composition pattern for building complex UI from smaller parts",
-      "Functional component using arrow function syntax",
-      "Default export pattern for page components",
-      "Path aliasing with @/ for cleaner imports",
-      "Tailwind CSS for styling (min-h-screen class)"
-    ],
-    "issues": [
-      "No error boundaries to handle potential component failures",
-      "No loading states if any child components require data fetching",
-      "No SEO meta tags or page title management",
-      "Could benefit from lazy loading for performance optimization",
-      "No accessibility landmarks or semantic HTML structure beyond div wrapper"
-    ]
+    "patterns": [],
+    "issues": []
   },
-  "tokens_used": 266,
+  "tokens_used": 18,
   "analysis_confidence": 0.9
 }

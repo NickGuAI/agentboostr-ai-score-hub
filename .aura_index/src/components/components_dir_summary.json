@@ -2,8 +2,8 @@
   "type": "directory",
   "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components",
   "name": "components",
-  "timestamp": "2025-07-17T17:06:22.726065",
-  "file_count": 8,
+  "timestamp": "2025-07-17T18:15:25.592502",
+  "file_count": 10,
   "subdirectory_count": 1,
   "subdirectories": [
     "ui"
@@ -12,8 +12,8 @@
     {
       "name": "ProtectedRoute.tsx",
       "type": "code",
-      "purpose": "I'll analyze the ProtectedRoute.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
+      "purpose": "A React component that protects routes by ensuring only authenticated users can access them, redirecting unauthenticated users to the auth page",
+      "tokens_used": 364
     },
     {
       "name": "LanguageSwitcher.tsx",
@@ -30,26 +30,38 @@
     {
       "name": "Header.tsx",
       "type": "code",
-      "purpose": "I'll analyze the Header.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
+      "purpose": "Header component that provides responsive navigation, authentication state display, and language switching for the AgentBoostR AI Score Hub application",
+      "tokens_used": 457
     },
     {
       "name": "HowItWorksSection.tsx",
       "type": "code",
-      "purpose": "I'll analyze the HowItWorksSection.tsx file and provide a detailed summary in JSON format.",
+      "purpose": "I'll analyze the `HowItWorksSection.tsx` file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "CTASection.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the CTASection.tsx file and provide a detailed summary in JSON format.",
       "tokens_used": 16
     },
     {
       "name": "PricingSection.tsx",
       "type": "code",
-      "purpose": "Looking at the PricingSection.tsx file, I'll analyze it and provide the detailed summary in JSON format.",
-      "tokens_used": 20
+      "purpose": "I'll analyze the PricingSection.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
     },
     {
       "name": "Footer.tsx",
       "type": "code",
-      "purpose": "I'll analyze the Footer.tsx file and provide a detailed summary in JSON format.",
-      "tokens_used": 16
+      "purpose": "A React footer component that displays company information, navigation links, social media icons, and legal/compliance information with internationalization support",
+      "tokens_used": 293
+    },
+    {
+      "name": "DataVisualization.tsx",
+      "type": "code",
+      "purpose": "A comprehensive data visualization component for displaying AI project scoring, financial metrics from Stripe, user engagement data from Google Analytics, and AI evaluation results",
+      "tokens_used": 390
     },
     {
       "name": "PageNavigation.tsx",
@@ -58,9 +70,9 @@
       "tokens_used": 16
     }
   ],
-  "total_tokens": 132,
+  "total_tokens": 1600,
   "file_types": {
-    "code": 8
+    "code": 10
   },
-  "aggregated_purpose": "Directory with 8 files (8 code files)"
+  "aggregated_purpose": "Directory with 10 files (10 code files)"
 }

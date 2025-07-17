@@ -1,19 +1,71 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ProtectedRoute.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze the ProtectedRoute.tsx file and provide a detailed summary in JSON format.",
-  "timestamp": "2025-07-17T17:05:14.451054",
-  "functions": [],
-  "variables": [],
+  "purpose": "A React component that protects routes by ensuring only authenticated users can access them, redirecting unauthenticated users to the auth page",
+  "timestamp": "2025-07-17T18:13:36.309952",
+  "functions": [
+    {
+      "name": "ProtectedRoute",
+      "input_params": [
+        "children (React.ReactNode)"
+      ],
+      "output_type": "JSX element (loading spinner, null, or children components)",
+      "core_logic": "Checks authentication status from useAuth hook, displays loading state while checking, redirects to /auth if not authenticated, renders children if authenticated",
+      "line_number": 0
+    }
+  ],
+  "variables": [
+    {
+      "name": "user",
+      "purpose": "Current authenticated user object from AuthContext",
+      "usage": "Used to determine if user is authenticated",
+      "line_number": 0
+    },
+    {
+      "name": "loading",
+      "purpose": "Boolean flag indicating if authentication check is in progress",
+      "usage": "Used to show loading spinner while auth status is being determined",
+      "line_number": 0
+    },
+    {
+      "name": "navigate",
+      "purpose": "Navigation function from React Router",
+      "usage": "Used to programmatically redirect to /auth page",
+      "line_number": 0
+    }
+  ],
   "classes": [],
-  "dependencies": [],
+  "dependencies": [
+    "react (useEffect hook)",
+    "react-router-dom (useNavigate hook)",
+    "@/contexts/AuthContext (custom auth context)",
+    "lucide-react (Loader2 icon component)"
+  ],
   "sections": [],
-  "key_points": [],
+  "key_points": [
+    "Acts as a wrapper component for protected routes",
+    "Checks authentication status before rendering children",
+    "Shows loading spinner during authentication check",
+    "Redirects to /auth if user is not authenticated",
+    "Returns null briefly before redirect to prevent flash of protected content"
+  ],
   "image_description": null,
   "metadata": {
-    "patterns": [],
-    "issues": []
+    "patterns": [
+      "Higher-Order Component (HOC) pattern for route protection",
+      "Context API usage for authentication state management",
+      "Conditional rendering based on authentication status",
+      "Loading state management during async operations",
+      "Effect hook for side effects (navigation)"
+    ],
+    "issues": [
+      "Brief flash of null content before redirect might be noticeable",
+      "No error handling for failed authentication checks",
+      "Could benefit from a redirect parameter to return users to their intended destination after login",
+      "No timeout handling if loading state persists indefinitely",
+      "Could memoize the component to prevent unnecessary re-renders"
+    ]
   },
-  "tokens_used": 16,
+  "tokens_used": 364,
   "analysis_confidence": 0.9
 }

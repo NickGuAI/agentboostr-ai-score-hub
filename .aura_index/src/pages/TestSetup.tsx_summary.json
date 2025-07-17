@@ -1,0 +1,119 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/pages/TestSetup.tsx",
+  "file_type": "code",
+  "purpose": "A test setup page that creates a demo project with mock data to showcase the AI scoring platform's features including Stripe financial integration, Google Analytics integration, and AI evaluation scoring",
+  "timestamp": "2025-07-17T18:15:10.600039",
+  "functions": [
+    {
+      "name": "createTestProject",
+      "input_params": [],
+      "output_type": "void (async)",
+      "core_logic": "Creates a demo project with predefined data, calls mock data creation functions, triggers AI evaluation, and navigates to project details",
+      "line_number": 0
+    },
+    {
+      "name": "createMockStripeData",
+      "input_params": [
+        "projectId: string"
+      ],
+      "output_type": "void (async)",
+      "core_logic": "Creates mock Stripe connection and financial metrics data including MRR, ARR, customers, and growth rates",
+      "line_number": 0
+    },
+    {
+      "name": "createMockGA4Data",
+      "input_params": [
+        "projectId: string"
+      ],
+      "output_type": "void (async)",
+      "core_logic": "Creates mock Google Analytics 4 connection and analytics data including users, sessions, traffic sources, and device breakdown",
+      "line_number": 0
+    },
+    {
+      "name": "generateEvaluation",
+      "input_params": [
+        "projectId: string"
+      ],
+      "output_type": "void (async)",
+      "core_logic": "Invokes Supabase edge function to calculate AI score, falls back to createMockEvaluation if it fails",
+      "line_number": 0
+    },
+    {
+      "name": "createMockEvaluation",
+      "input_params": [
+        "projectId: string"
+      ],
+      "output_type": "void (async)",
+      "core_logic": "Creates mock evaluation results with scores, strengths, weaknesses, and recommendations",
+      "line_number": 0
+    }
+  ],
+  "variables": [
+    {
+      "name": "step",
+      "purpose": "Tracks current step in the setup wizard",
+      "usage": "Used for progress bar and conditional rendering",
+      "line_number": 0
+    },
+    {
+      "name": "loading",
+      "purpose": "Indicates if setup process is running",
+      "usage": "Disables button and shows loading spinner",
+      "line_number": 0
+    },
+    {
+      "name": "testProjectId",
+      "purpose": "Stores the created test project ID",
+      "usage": "Used for navigation to project details after creation",
+      "line_number": 0
+    },
+    {
+      "name": "steps",
+      "purpose": "Defines the four setup steps with metadata",
+      "usage": "Renders step list with icons and completion status",
+      "line_number": 0
+    }
+  ],
+  "classes": [],
+  "dependencies": [
+    "react",
+    "react-router-dom",
+    "@/components/ui/*",
+    "@/components/PageNavigation",
+    "@/components/ProtectedRoute",
+    "@/integrations/supabase/client",
+    "@/contexts/AuthContext",
+    "sonner",
+    "lucide-react"
+  ],
+  "sections": [],
+  "key_points": [
+    "Protected route requiring authentication",
+    "Multi-step wizard interface for creating demo project",
+    "Creates mock data for Stripe financial metrics",
+    "Creates mock data for Google Analytics 4",
+    "Triggers AI evaluation scoring or creates mock evaluation as fallback",
+    "Auto-redirects to project details page after completion"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Protected route pattern for authentication",
+      "Multi-step wizard UI pattern",
+      "Mock data generation for testing",
+      "Fallback error handling for external services",
+      "Async/await with proper error handling",
+      "Component composition with reusable UI components"
+    ],
+    "issues": [
+      "Hard-coded mock data values might not reflect realistic scenarios",
+      "No cleanup mechanism for test projects which could lead to data accumulation",
+      "Error handling could be more granular - currently catches all errors generically",
+      "Mock data creation functions don't check if data already exists",
+      "2-second timeout for navigation is arbitrary and might be too short/long",
+      "No validation that user.email exists before using it in GA4 mock data"
+    ]
+  },
+  "tokens_used": 536,
+  "analysis_confidence": 0.9
+}

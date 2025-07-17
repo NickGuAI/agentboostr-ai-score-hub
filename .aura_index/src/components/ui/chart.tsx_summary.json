@@ -1,0 +1,112 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/chart.tsx",
+  "file_type": "code",
+  "purpose": "A React component library for creating customizable charts using Recharts, with theme support and consistent styling",
+  "timestamp": "2025-07-17T18:10:51.107102",
+  "functions": [
+    {
+      "name": "useChart",
+      "input_params": [],
+      "output_type": "ChartContextProps",
+      "core_logic": "Custom hook that retrieves chart configuration from context, throws error if used outside ChartContainer",
+      "line_number": 0
+    },
+    {
+      "name": "getPayloadConfigFromPayload",
+      "input_params": [
+        "config",
+        "payload",
+        "key"
+      ],
+      "output_type": "ChartConfig item or undefined",
+      "core_logic": "Helper function that extracts configuration for a specific data item from the chart config based on various key lookups",
+      "line_number": 0
+    }
+  ],
+  "variables": [
+    {
+      "name": "THEMES",
+      "purpose": "Defines available theme modes and their CSS selectors",
+      "usage": "Used to generate theme-specific CSS rules for chart colors",
+      "line_number": 0
+    },
+    {
+      "name": "ChartContext",
+      "purpose": "React context for sharing chart configuration",
+      "usage": "Provides chart config to all child components",
+      "line_number": 0
+    },
+    {
+      "name": "ChartContainer",
+      "purpose": "Main wrapper component for charts",
+      "usage": "Provides context, styling, and responsive container for Recharts components",
+      "line_number": 0
+    },
+    {
+      "name": "ChartStyle",
+      "purpose": "Component that generates dynamic CSS for chart theming",
+      "usage": "Injects CSS custom properties based on chart configuration",
+      "line_number": 0
+    },
+    {
+      "name": "ChartTooltip",
+      "purpose": "Re-export of Recharts Tooltip",
+      "usage": "Direct alias for RechartsPrimitive.Tooltip",
+      "line_number": 0
+    },
+    {
+      "name": "ChartTooltipContent",
+      "purpose": "Custom tooltip content component",
+      "usage": "Renders formatted tooltip with configurable indicators and labels",
+      "line_number": 0
+    },
+    {
+      "name": "ChartLegend",
+      "purpose": "Re-export of Recharts Legend",
+      "usage": "Direct alias for RechartsPrimitive.Legend",
+      "line_number": 0
+    },
+    {
+      "name": "ChartLegendContent",
+      "purpose": "Custom legend content component",
+      "usage": "Renders formatted legend with icons or color indicators",
+      "line_number": 0
+    }
+  ],
+  "classes": [],
+  "dependencies": [
+    "react",
+    "recharts",
+    "@/lib/utils (cn function)"
+  ],
+  "sections": [],
+  "key_points": [
+    "Wrapper around Recharts library with enhanced theming capabilities",
+    "Provides a context-based architecture for sharing chart configuration",
+    "Supports light/dark theme switching with CSS custom properties",
+    "Includes customizable tooltip and legend components",
+    "Uses forwardRef pattern for proper ref forwarding",
+    "Implements dynamic CSS generation for chart theming"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Context pattern for configuration management",
+      "ForwardRef pattern for proper ref handling",
+      "Compound component pattern (Container + Style + Tooltip + Legend)",
+      "CSS-in-JS via dangerouslySetInnerHTML for dynamic theming",
+      "TypeScript discriminated unions for theme/color configuration",
+      "Composition over inheritance approach"
+    ],
+    "issues": [
+      "dangerouslySetInnerHTML usage could be a security risk if config values aren't properly sanitized",
+      "Complex CSS selectors in className might impact performance with many charts",
+      "No memoization on ChartStyle component could cause unnecessary re-renders",
+      "Error thrown in useChart might be too aggressive for some use cases",
+      "Type safety could be improved with more specific types instead of 'unknown' in getPayloadConfigFromPayload",
+      "No validation on color values in configuration"
+    ]
+  },
+  "tokens_used": 516,
+  "analysis_confidence": 0.9
+}

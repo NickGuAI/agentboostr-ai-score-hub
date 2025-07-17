@@ -2,7 +2,7 @@
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/supabase/config.toml",
   "file_type": "other",
   "purpose": "This TOML file serves as a configuration file for Supabase functions within a project, likely defining settings related to serverless functions for integrations with Stripe and Google Analytics 4 (GA4).",
-  "timestamp": "2025-07-17T17:02:14.817822",
+  "timestamp": "2025-07-17T18:09:33.506385",
   "functions": [],
   "variables": [],
   "classes": [],

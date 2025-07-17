@@ -1,0 +1,48 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/skeleton.tsx",
+  "file_type": "code",
+  "purpose": "A reusable skeleton loading component that displays an animated placeholder while content is being loaded",
+  "timestamp": "2025-07-17T18:13:00.840489",
+  "functions": [
+    {
+      "name": "Skeleton",
+      "input_params": [
+        "className (optional string)",
+        "...props (React.HTMLAttributes<HTMLDivElement>)"
+      ],
+      "output_type": "JSX.Element (div element)",
+      "core_logic": "Renders a div element with pulse animation, rounded corners, and muted background color, allowing custom className and other HTML div attributes to be passed through",
+      "line_number": 0
+    }
+  ],
+  "variables": [],
+  "classes": [],
+  "dependencies": [
+    "@/lib/utils (for cn utility function)"
+  ],
+  "sections": [],
+  "key_points": [
+    "Simple skeleton UI component for loading states",
+    "Uses Tailwind CSS classes for styling and animation",
+    "Extends HTML div element attributes for flexibility",
+    "Exports a single named export 'Skeleton'"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Component composition pattern with spread props",
+      "Utility-first CSS with Tailwind classes",
+      "Named exports for tree-shaking optimization",
+      "TypeScript for type safety with React.HTMLAttributes",
+      "cn() utility for conditional/merged className handling"
+    ],
+    "issues": [
+      "No default export which some developers might expect",
+      "Depends on external cn utility function which must be maintained",
+      "No accessibility attributes (aria-label, role) to indicate loading state",
+      "Could benefit from additional props like 'width', 'height', or 'variant' for more customization options"
+    ]
+  },
+  "tokens_used": 257,
+  "analysis_confidence": 0.9
+}

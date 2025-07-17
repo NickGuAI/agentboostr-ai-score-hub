@@ -1,8 +1,8 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/badge.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze the TSX code file and provide a detailed summary in JSON format.",
-  "timestamp": "2025-07-17T17:04:24.195692",
+  "purpose": "Looking at the badge.tsx file, I'll analyze it and provide a detailed summary in JSON format.",
+  "timestamp": "2025-07-17T18:11:55.844680",
   "functions": [],
   "variables": [],
   "classes": [],
@@ -14,6 +14,6 @@
     "patterns": [],
     "issues": []
   },
-  "tokens_used": 18,
+  "tokens_used": 20,
   "analysis_confidence": 0.9
 }

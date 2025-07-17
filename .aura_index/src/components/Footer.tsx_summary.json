@@ -1,19 +1,49 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/Footer.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze the Footer.tsx file and provide a detailed summary in JSON format.",
-  "timestamp": "2025-07-17T17:05:21.886002",
+  "purpose": "A React footer component that displays company information, navigation links, social media icons, and legal/compliance information with internationalization support",
+  "timestamp": "2025-07-17T18:13:52.332116",
   "functions": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "footerLinks",
+      "purpose": "Stores all footer navigation links organized by category",
+      "usage": "Object containing arrays of link objects with name (from translation) and href properties for each footer section",
+      "line_number": 0
+    }
+  ],
   "classes": [],
-  "dependencies": [],
+  "dependencies": [
+    "@/components/ui/button",
+    "@/components/ui/separator",
+    "lucide-react",
+    "@/contexts/LanguageContext"
+  ],
   "sections": [],
-  "key_points": [],
+  "key_points": [
+    "Uses internationalization (i18n) through useLanguage hook for multi-language support",
+    "Responsive grid layout that adapts from 1 column on mobile to 6 columns on desktop",
+    "Includes four main link categories: Product, Company, Resources, and Legal",
+    "Features social media icon buttons for Twitter, LinkedIn, GitHub, and Email",
+    "Displays compliance badges (GDPR, ISO 27001) and company statistics"
+  ],
   "image_description": null,
   "metadata": {
-    "patterns": [],
-    "issues": []
+    "patterns": [
+      "Component composition pattern with UI components",
+      "Internationalization pattern using context-based translation function",
+      "Responsive design using Tailwind CSS grid utilities",
+      "Consistent hover state styling for interactive elements",
+      "Semantic HTML structure for accessibility"
+    ],
+    "issues": [
+      "All links currently point to anchor fragments (#) - likely placeholders that need actual routes",
+      "Hard-coded Chinese text in legal links array ('GDPR\u5408\u89c4') and footer bottom section should use translation keys",
+      "Social media buttons don't have actual click handlers or href attributes",
+      "Missing aria-labels on social media icon buttons for accessibility",
+      "The 'Resources' section uses 'footer.support' translation key which might be confusing naming"
+    ]
   },
-  "tokens_used": 16,
+  "tokens_used": 293,
   "analysis_confidence": 0.9
 }

@@ -1,60 +1,19 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/toggle-group.tsx",
   "file_type": "code",
-  "purpose": "A React component that provides a toggle group UI element using Radix UI primitives, allowing users to select one or multiple options from a group of toggle buttons",
-  "timestamp": "2025-07-17T17:04:17.655621",
+  "purpose": "I'll analyze the toggle-group.tsx file and provide a detailed summary in JSON format.",
+  "timestamp": "2025-07-17T18:11:32.752788",
   "functions": [],
-  "variables": [
-    {
-      "name": "ToggleGroupContext",
-      "purpose": "React Context to share variant and size props between ToggleGroup parent and ToggleGroupItem children",
-      "usage": "Provides default styling configuration that can be inherited by child items",
-      "line_number": 0
-    },
-    {
-      "name": "ToggleGroup",
-      "purpose": "The main container component for the toggle group",
-      "usage": "Wraps toggle items and provides context for shared styling",
-      "line_number": 0
-    },
-    {
-      "name": "ToggleGroupItem",
-      "purpose": "Individual toggle button within the group",
-      "usage": "Represents each selectable option in the toggle group",
-      "line_number": 0
-    }
-  ],
+  "variables": [],
   "classes": [],
-  "dependencies": [
-    "@radix-ui/react-toggle-group",
-    "class-variance-authority",
-    "@/lib/utils",
-    "@/components/ui/toggle"
-  ],
+  "dependencies": [],
   "sections": [],
-  "key_points": [
-    "Built on top of Radix UI's toggle-group primitive for accessibility and behavior",
-    "Uses React Context to share variant and size props between parent and children",
-    "Leverages class-variance-authority for variant styling",
-    "Implements forwardRef for proper ref forwarding",
-    "Reuses toggle button variants from a separate toggle component"
-  ],
+  "key_points": [],
   "image_description": null,
   "metadata": {
-    "patterns": [
-      "Compound Component Pattern - using Context to share state between parent and children",
-      "forwardRef Pattern - allowing ref access to underlying DOM elements",
-      "Composition Pattern - building on top of Radix UI primitives",
-      "CSS-in-JS variant pattern using class-variance-authority",
-      "TypeScript type safety with proper type inference from primitives"
-    ],
-    "issues": [
-      "No default export which might be inconsistent with other UI components",
-      "Context default values might not match actual usage if toggleVariants has different defaults",
-      "No error boundary or fallback for missing context provider",
-      "The gap-1 class is hardcoded and not configurable through props"
-    ]
+    "patterns": [],
+    "issues": []
   },
-  "tokens_used": 344,
+  "tokens_used": 16,
   "analysis_confidence": 0.9
 }

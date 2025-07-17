@@ -2,26 +2,26 @@
   "type": "root",
   "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main",
   "name": "agentboostr-ai-score-hub-main",
-  "timestamp": "2025-07-17T17:06:22.730021",
+  "timestamp": "2025-07-17T18:15:25.597260",
   "version": "1.0",
-  "total_files_analyzed": 73,
+  "total_files_analyzed": 82,
   "metadata": {
     "total_files": 107,
-    "successful": 73,
-    "failed": 34,
-    "duration_seconds": 271.679528,
-    "timestamp": "2025-07-17T17:06:22.702102"
+    "successful": 82,
+    "failed": 25,
+    "duration_seconds": 380.765834,
+    "timestamp": "2025-07-17T18:15:25.566871"
   },
   "statistics": {
-    "total_tokens": 6995.7,
+    "total_tokens": 12073.7,
     "file_types": {
       "other": 10,
-      "code": 60,
+      "code": 69,
       "document": 2,
       "image": 1
     },
-    "analysis_duration": 271.679528,
-    "errors": 34
+    "analysis_duration": 380.765834,
+    "errors": 25
   },
   "directory_structure": {
     "name": "agentboostr-ai-score-hub-main",
@@ -34,6 +34,12 @@
             "subdirs": {
               "sync-stripe-data": {
                 "name": "sync-stripe-data",
+                "subdirs": {},
+                "files": 1,
+                "purpose": "I'll analyze the TypeScript code file and provide a detailed summary in JSON format."
+              },
+              "stripe-auth": {
+                "name": "stripe-auth",
                 "subdirs": {},
                 "files": 1,
                 "purpose": "I'll analyze the TypeScript code file and provide a detailed summary in JSON format."
@@ -86,30 +92,30 @@
               "ui": {
                 "name": "ui",
                 "subdirs": {},
-                "files": 35,
-                "purpose": "Directory with 35 files (35 code files)"
+                "files": 44,
+                "purpose": "Directory with 44 files (44 code files)"
               }
             },
-            "files": 8,
-            "purpose": "Directory with 8 files (8 code files)"
+            "files": 10,
+            "purpose": "Directory with 10 files (10 code files)"
           },
           "hooks": {
             "name": "hooks",
             "subdirs": {},
             "files": 2,
-            "purpose": "Directory containing: I'll analyze this TypeScript file that implements a toast notification system and provide a detailed summary in JSON format.; Custom React hook to detect and track mobile device viewport state based on window width"
+            "purpose": "Directory containing: Custom React hook and utilities for managing toast notifications with state management, auto-dismissal, and a global toast queue system; I'll analyze the provided TypeScript React code file and provide a detailed summary in JSON format."
           },
           "lib": {
             "name": "lib",
             "subdirs": {},
             "files": 1,
-            "purpose": "Looking at the TypeScript file, I'll analyze it and provide a detailed JSON summary."
+            "purpose": "I'll analyze the TypeScript file and provide a detailed summary in JSON format."
           },
           "pages": {
             "name": "pages",
             "subdirs": {},
-            "files": 4,
-            "purpose": "Directory with 4 files (4 code files)"
+            "files": 7,
+            "purpose": "Directory with 7 files (7 code files)"
           }
         },
         "files": 5,

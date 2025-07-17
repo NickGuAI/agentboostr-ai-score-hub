@@ -2,7 +2,7 @@
   "type": "directory",
   "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src",
   "name": "src",
-  "timestamp": "2025-07-17T17:06:22.725016",
+  "timestamp": "2025-07-17T18:15:25.591399",
   "file_count": 5,
   "subdirectory_count": 6,
   "subdirectories": [
@@ -17,8 +17,8 @@
     {
       "name": "main.tsx",
       "type": "code",
-      "purpose": "I'll analyze the provided TSX code file and provide a detailed summary in the requested JSON format.",
-      "tokens_used": 22
+      "purpose": "I'll analyze the provided TSX file and provide a detailed summary in the requested JSON format.",
+      "tokens_used": 20
     },
     {
       "name": "index.css",
@@ -35,8 +35,8 @@
     {
       "name": "vite-env.d.ts",
       "type": "code",
-      "purpose": "TypeScript declaration file that provides type definitions for Vite's client-side APIs and environment variables",
-      "tokens_used": 145
+      "purpose": "TypeScript declaration file that provides type definitions for Vite's client-side environment variables and modules",
+      "tokens_used": 131
     },
     {
       "name": "App.tsx",
@@ -45,7 +45,7 @@
       "tokens_used": 323
     }
   ],
-  "total_tokens": 1012.6,
+  "total_tokens": 996.6,
   "file_types": {
     "code": 3,
     "other": 2

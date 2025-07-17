@@ -1,19 +1,90 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/toast.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze this TypeScript React component file that implements a toast notification system.",
-  "timestamp": "2025-07-17T17:04:53.705251",
+  "purpose": "React component library for customizable toast notifications using Radix UI primitives with styling variants",
+  "timestamp": "2025-07-17T18:12:37.782963",
   "functions": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "ToastProvider",
+      "purpose": "Provides context for toast notifications",
+      "usage": "Wraps the app to enable toast functionality",
+      "line_number": 0
+    },
+    {
+      "name": "ToastViewport",
+      "purpose": "Container that positions and displays all active toasts",
+      "usage": "Renders fixed positioned container for toast notifications with responsive positioning",
+      "line_number": 0
+    },
+    {
+      "name": "toastVariants",
+      "purpose": "Defines styling variants for toast components",
+      "usage": "CVA configuration for default and destructive toast styles with animations",
+      "line_number": 0
+    },
+    {
+      "name": "Toast",
+      "purpose": "Main toast notification component",
+      "usage": "Displays individual toast messages with variant styling",
+      "line_number": 0
+    },
+    {
+      "name": "ToastAction",
+      "purpose": "Action button component for toasts",
+      "usage": "Renders clickable actions within toast notifications",
+      "line_number": 0
+    },
+    {
+      "name": "ToastClose",
+      "purpose": "Close button for dismissing toasts",
+      "usage": "X button that appears on hover to close toast notifications",
+      "line_number": 0
+    },
+    {
+      "name": "ToastTitle",
+      "purpose": "Title text component for toasts",
+      "usage": "Displays the main heading of a toast notification",
+      "line_number": 0
+    },
+    {
+      "name": "ToastDescription",
+      "purpose": "Description text component for toasts",
+      "usage": "Displays secondary text content in toast notifications",
+      "line_number": 0
+    }
+  ],
   "classes": [],
-  "dependencies": [],
+  "dependencies": [
+    "@radix-ui/react-toast",
+    "class-variance-authority",
+    "lucide-react",
+    "@/lib/utils"
+  ],
   "sections": [],
-  "key_points": [],
+  "key_points": [
+    "Implements a complete toast notification system with multiple components",
+    "Uses Radix UI's headless toast primitives for accessibility",
+    "Provides styled components with variants using class-variance-authority",
+    "All components use React.forwardRef for proper ref forwarding",
+    "Includes viewport positioning, animations, and swipe gestures support"
+  ],
   "image_description": null,
   "metadata": {
-    "patterns": [],
-    "issues": []
+    "patterns": [
+      "Component composition pattern with multiple exported sub-components",
+      "forwardRef pattern for all components to support ref forwarding",
+      "Headless UI pattern using Radix UI primitives",
+      "Variant pattern using CVA for consistent styling",
+      "BEM-like naming convention for component display names"
+    ],
+    "issues": [
+      "The 'toast-close' attribute on ToastClose has an empty string value which might be unintentional",
+      "Complex animation classes in toastVariants might be hard to maintain",
+      "No error boundary or fallback handling for toast failures",
+      "TypeScript types are exported but not all components have explicit prop type definitions"
+    ]
   },
-  "tokens_used": 16,
+  "tokens_used": 417,
   "analysis_confidence": 0.9
 }

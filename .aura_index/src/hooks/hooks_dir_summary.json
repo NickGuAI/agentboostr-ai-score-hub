@@ -2,7 +2,7 @@
   "type": "directory",
   "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/hooks",
   "name": "hooks",
-  "timestamp": "2025-07-17T17:06:22.726319",
+  "timestamp": "2025-07-17T18:15:25.592854",
   "file_count": 2,
   "subdirectory_count": 0,
   "subdirectories": [],
@@ -10,19 +10,19 @@
     {
       "name": "use-toast.ts",
       "type": "code",
-      "purpose": "I'll analyze this TypeScript file that implements a toast notification system and provide a detailed summary in JSON format.",
-      "tokens_used": 24
+      "purpose": "Custom React hook and utilities for managing toast notifications with state management, auto-dismissal, and a global toast queue system",
+      "tokens_used": 630
     },
     {
       "name": "use-mobile.tsx",
       "type": "code",
-      "purpose": "Custom React hook to detect and track mobile device viewport state based on window width",
-      "tokens_used": 349
+      "purpose": "I'll analyze the provided TypeScript React code file and provide a detailed summary in JSON format.",
+      "tokens_used": 20
     }
   ],
-  "total_tokens": 373,
+  "total_tokens": 650,
   "file_types": {
     "code": 2
   },
-  "aggregated_purpose": "Directory containing: I'll analyze this TypeScript file that implements a toast notification system and provide a detailed summary in JSON format.; Custom React hook to detect and track mobile device viewport state based on window width"
+  "aggregated_purpose": "Directory containing: Custom React hook and utilities for managing toast notifications with state management, auto-dismissal, and a global toast queue system; I'll analyze the provided TypeScript React code file and provide a detailed summary in JSON format."
 }

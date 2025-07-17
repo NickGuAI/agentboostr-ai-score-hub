@@ -1,19 +1,36 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/use-toast.ts",
   "file_type": "code",
-  "purpose": "I'll analyze the TypeScript file and provide a detailed summary in JSON format.",
-  "timestamp": "2025-07-17T17:03:46.348640",
+  "purpose": "Re-export module that provides a simplified API for toast notifications by re-exporting toast utilities from a centralized hooks location",
+  "timestamp": "2025-07-17T18:11:21.439952",
   "functions": [],
   "variables": [],
   "classes": [],
-  "dependencies": [],
+  "dependencies": [
+    "@/hooks/use-toast"
+  ],
   "sections": [],
-  "key_points": [],
+  "key_points": [
+    "Acts as a barrel export file for toast-related functionality",
+    "Re-exports useToast hook and toast function from @/hooks/use-toast",
+    "Provides a convenient import path for UI components needing toast functionality",
+    "Follows a common pattern in component libraries to organize exports"
+  ],
   "image_description": null,
   "metadata": {
-    "patterns": [],
-    "issues": []
+    "patterns": [
+      "Barrel export pattern for organizing module exports",
+      "UI component library structure with separated hooks and components",
+      "Path alias usage (@/) for cleaner imports",
+      "Separation of concerns between UI components and hooks"
+    ],
+    "issues": [
+      "No TypeScript type exports - consumers won't have access to toast-related types if they exist",
+      "Circular dependency risk if @/hooks/use-toast imports from components",
+      "Could benefit from re-exporting any toast configuration types or interfaces",
+      "Consider adding JSDoc comments to document the re-exported items"
+    ]
   },
-  "tokens_used": 16,
+  "tokens_used": 213,
   "analysis_confidence": 0.9
 }

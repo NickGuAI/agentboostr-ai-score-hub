@@ -1,0 +1,134 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/context-menu.tsx",
+  "file_type": "code",
+  "purpose": "A React component library for creating context menus using Radix UI primitives with custom styling and Tailwind CSS classes",
+  "timestamp": "2025-07-17T18:13:18.996943",
+  "functions": [],
+  "variables": [
+    {
+      "name": "ContextMenu",
+      "purpose": "Root component for context menu",
+      "usage": "Direct export of Radix UI's ContextMenu.Root primitive",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuTrigger",
+      "purpose": "Element that triggers the context menu on right-click",
+      "usage": "Direct export of Radix UI's ContextMenu.Trigger primitive",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuGroup",
+      "purpose": "Groups related menu items together",
+      "usage": "Direct export of Radix UI's ContextMenu.Group primitive",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuPortal",
+      "purpose": "Renders menu content in a portal",
+      "usage": "Direct export of Radix UI's ContextMenu.Portal primitive",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuSub",
+      "purpose": "Container for submenu functionality",
+      "usage": "Direct export of Radix UI's ContextMenu.Sub primitive",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuRadioGroup",
+      "purpose": "Groups radio menu items for single selection",
+      "usage": "Direct export of Radix UI's ContextMenu.RadioGroup primitive",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuSubTrigger",
+      "purpose": "Trigger element for opening submenus",
+      "usage": "Styled wrapper with chevron icon and inset option",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuSubContent",
+      "purpose": "Container for submenu content",
+      "usage": "Styled wrapper with animations and positioning",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuContent",
+      "purpose": "Main container for context menu items",
+      "usage": "Wrapped in Portal with animations and styling",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuItem",
+      "purpose": "Individual clickable menu item",
+      "usage": "Styled wrapper with focus states and inset option",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuCheckboxItem",
+      "purpose": "Menu item with checkbox functionality",
+      "usage": "Shows check icon when selected",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuRadioItem",
+      "purpose": "Menu item for radio selection",
+      "usage": "Shows circle icon when selected",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuLabel",
+      "purpose": "Non-interactive label for menu sections",
+      "usage": "Styled text with font-semibold and inset option",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuSeparator",
+      "purpose": "Visual separator between menu sections",
+      "usage": "Horizontal line with negative margins",
+      "line_number": 0
+    },
+    {
+      "name": "ContextMenuShortcut",
+      "purpose": "Display keyboard shortcuts in menu items",
+      "usage": "Styled span aligned to the right with muted color",
+      "line_number": 0
+    }
+  ],
+  "classes": [],
+  "dependencies": [
+    "react",
+    "@radix-ui/react-context-menu",
+    "lucide-react (for Check, ChevronRight, Circle icons)",
+    "@/lib/utils (for cn utility function)"
+  ],
+  "sections": [],
+  "key_points": [
+    "Wraps Radix UI's context menu primitives with custom styling",
+    "Uses React.forwardRef for proper ref forwarding",
+    "Implements a complete context menu system with submenus, radio groups, checkboxes, and shortcuts",
+    "All components use the cn utility for conditional className merging",
+    "Supports animations and transitions for menu open/close states"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Component composition pattern using Radix UI primitives",
+      "ForwardRef pattern for proper ref handling in React",
+      "Consistent use of displayName for debugging",
+      "Tailwind CSS for styling with custom design tokens",
+      "Animation classes for smooth transitions",
+      "Accessibility-first approach using Radix UI"
+    ],
+    "issues": [
+      "No TypeScript prop validation beyond what Radix UI provides",
+      "Hard-coded animation durations might need customization",
+      "Missing ARIA labels or descriptions for some components",
+      "The cn utility dependency could be replaced with clsx/classnames directly",
+      "No error boundaries or fallback UI for menu failures"
+    ]
+  },
+  "tokens_used": 591,
+  "analysis_confidence": 0.9
+}

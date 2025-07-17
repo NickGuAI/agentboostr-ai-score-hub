@@ -1,19 +1,53 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/toggle.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze the toggle.tsx file and provide a detailed summary in JSON format.",
-  "timestamp": "2025-07-17T17:04:52.549764",
+  "purpose": "A customizable toggle button component built on top of Radix UI's Toggle primitive with variant support using class-variance-authority",
+  "timestamp": "2025-07-17T18:12:30.326113",
   "functions": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "toggleVariants",
+      "purpose": "Defines the styling variants for the toggle component using cva",
+      "usage": "Used to generate appropriate CSS classes based on variant and size props",
+      "line_number": 0
+    },
+    {
+      "name": "Toggle",
+      "purpose": "The main toggle component that wraps Radix UI's Toggle primitive",
+      "usage": "Exported for use as a customizable toggle button throughout the application",
+      "line_number": 0
+    }
+  ],
   "classes": [],
-  "dependencies": [],
+  "dependencies": [
+    "@radix-ui/react-toggle",
+    "class-variance-authority",
+    "@/lib/utils"
+  ],
   "sections": [],
-  "key_points": [],
+  "key_points": [
+    "Extends Radix UI's Toggle primitive with custom styling",
+    "Uses class-variance-authority (cva) for variant management",
+    "Supports different visual variants and sizes",
+    "Implements React forwardRef for proper ref handling",
+    "Provides consistent styling with focus states and accessibility features"
+  ],
   "image_description": null,
   "metadata": {
-    "patterns": [],
-    "issues": []
+    "patterns": [
+      "Component composition pattern using Radix UI primitives",
+      "Variant pattern using class-variance-authority for flexible styling",
+      "ForwardRef pattern for proper ref forwarding",
+      "CSS-in-JS approach with Tailwind utility classes",
+      "Separation of concerns with styling logic extracted to variants"
+    ],
+    "issues": [
+      "No TypeScript interface explicitly exported for Toggle props, relying on inference",
+      "Limited to two variants (default and outline) - might need expansion for more use cases",
+      "No built-in icon support which is common for toggle buttons",
+      "No explicit aria-label handling which might be needed for accessibility"
+    ]
   },
-  "tokens_used": 16,
+  "tokens_used": 282,
   "analysis_confidence": 0.9
 }

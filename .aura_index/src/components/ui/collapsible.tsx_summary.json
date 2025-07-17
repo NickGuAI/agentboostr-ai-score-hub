@@ -1,8 +1,8 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/collapsible.tsx",
   "file_type": "code",
-  "purpose": "I'll analyze the TSX file and provide a detailed summary in JSON format.",
-  "timestamp": "2025-07-17T17:04:59.787248",
+  "purpose": "I'll analyze the TSX code file and provide a detailed summary in JSON format.",
+  "timestamp": "2025-07-17T18:12:44.280095",
   "functions": [],
   "variables": [],
   "classes": [],
@@ -14,6 +14,6 @@
     "patterns": [],
     "issues": []
   },
-  "tokens_used": 16,
+  "tokens_used": 18,
   "analysis_confidence": 0.9
 }

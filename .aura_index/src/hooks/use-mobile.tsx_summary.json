@@ -1,60 +1,19 @@
 {
   "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/hooks/use-mobile.tsx",
   "file_type": "code",
-  "purpose": "Custom React hook to detect and track mobile device viewport state based on window width",
-  "timestamp": "2025-07-17T17:05:44.172296",
-  "functions": [
-    {
-      "name": "useIsMobile",
-      "input_params": [],
-      "output_type": "boolean - true if viewport width is less than 768px, false otherwise",
-      "core_logic": "Creates a media query listener for viewport width changes, maintains mobile state in React state, and cleans up event listener on unmount",
-      "line_number": 0
-    }
-  ],
-  "variables": [
-    {
-      "name": "MOBILE_BREAKPOINT",
-      "purpose": "Defines the pixel width threshold for mobile devices",
-      "usage": "Used to create media query and compare window width",
-      "line_number": 0
-    },
-    {
-      "name": "isMobile",
-      "purpose": "React state variable tracking current mobile status",
-      "usage": "Stores boolean value indicating if viewport is mobile-sized, initialized as undefined for SSR compatibility",
-      "line_number": 0
-    }
-  ],
+  "purpose": "I'll analyze the provided TypeScript React code file and provide a detailed summary in JSON format.",
+  "timestamp": "2025-07-17T18:14:05.627083",
+  "functions": [],
+  "variables": [],
   "classes": [],
-  "dependencies": [
-    "react"
-  ],
+  "dependencies": [],
   "sections": [],
-  "key_points": [
-    "Defines a mobile breakpoint at 768px width",
-    "Uses window.matchMedia API for responsive detection",
-    "Returns a boolean indicating if the viewport is mobile-sized",
-    "Initializes with undefined to handle SSR scenarios",
-    "Updates state when viewport size changes"
-  ],
+  "key_points": [],
   "image_description": null,
   "metadata": {
-    "patterns": [
-      "Custom hook pattern for reusable logic",
-      "Media query event listener for responsive behavior",
-      "Effect cleanup pattern to prevent memory leaks",
-      "SSR-friendly initialization with undefined state",
-      "Double negation (!!) to ensure boolean return value"
-    ],
-    "issues": [
-      "removeEventListener is deprecated - should use removeEventListener('change', onChange) with event type",
-      "No debouncing on resize events which could cause performance issues with frequent updates",
-      "Initial undefined state might cause hydration mismatches in SSR",
-      "Hard-coded breakpoint value could be made configurable",
-      "Could benefit from using ResizeObserver API for better performance"
-    ]
+    "patterns": [],
+    "issues": []
   },
-  "tokens_used": 349,
+  "tokens_used": 20,
   "analysis_confidence": 0.9
 }

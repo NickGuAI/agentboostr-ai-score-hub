@@ -2,11 +2,12 @@
   "type": "directory",
   "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/supabase/functions",
   "name": "functions",
-  "timestamp": "2025-07-17T17:06:22.725327",
+  "timestamp": "2025-07-17T18:15:25.591678",
   "file_count": 0,
-  "subdirectory_count": 2,
+  "subdirectory_count": 3,
   "subdirectories": [
     "sync-stripe-data",
+    "stripe-auth",
     "ga4-callback"
   ],
   "files": [],
