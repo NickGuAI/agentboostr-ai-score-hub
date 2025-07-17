@@ -1,0 +1,122 @@
+{
+  "type": "root",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main",
+  "name": "agentboostr-ai-score-hub-main",
+  "timestamp": "2025-07-17T17:06:22.730021",
+  "version": "1.0",
+  "total_files_analyzed": 73,
+  "metadata": {
+    "total_files": 107,
+    "successful": 73,
+    "failed": 34,
+    "duration_seconds": 271.679528,
+    "timestamp": "2025-07-17T17:06:22.702102"
+  },
+  "statistics": {
+    "total_tokens": 6995.7,
+    "file_types": {
+      "other": 10,
+      "code": 60,
+      "document": 2,
+      "image": 1
+    },
+    "analysis_duration": 271.679528,
+    "errors": 34
+  },
+  "directory_structure": {
+    "name": "agentboostr-ai-score-hub-main",
+    "subdirs": {
+      "supabase": {
+        "name": "supabase",
+        "subdirs": {
+          "functions": {
+            "name": "functions",
+            "subdirs": {
+              "sync-stripe-data": {
+                "name": "sync-stripe-data",
+                "subdirs": {},
+                "files": 1,
+                "purpose": "I'll analyze the TypeScript code file and provide a detailed summary in JSON format."
+              },
+              "ga4-callback": {
+                "name": "ga4-callback",
+                "subdirs": {},
+                "files": 1,
+                "purpose": "I'll analyze the TypeScript code file and provide a detailed summary in JSON format."
+              }
+            },
+            "files": 0,
+            "purpose": "Empty directory"
+          }
+        },
+        "files": 1,
+        "purpose": "This TOML file serves as a configuration file for Supabase functions within a project, likely defining settings related to serverless functions for integrations with Stripe and Google Analytics 4 (GA4)."
+      },
+      "public": {
+        "name": "public",
+        "subdirs": {},
+        "files": 2,
+        "purpose": "Directory containing: I cannot access the image file at `/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/public/placeholder.svg` because it is outside the current working directory `/Users/yugu/Desktop/Cool Projects/Gehirn/project_aura/Analysis`.; This document is a robots.txt file, which instructs web crawlers (like search engine bots) on which parts of a website they are allowed or disallowed to access."
+      },
+      "src": {
+        "name": "src",
+        "subdirs": {
+          "contexts": {
+            "name": "contexts",
+            "subdirs": {},
+            "files": 1,
+            "purpose": "I'll analyze the AuthContext.tsx file and provide a detailed summary in JSON format."
+          },
+          "integrations": {
+            "name": "integrations",
+            "subdirs": {
+              "supabase": {
+                "name": "supabase",
+                "subdirs": {},
+                "files": 1,
+                "purpose": "I'll analyze the TypeScript code file and provide a detailed summary in JSON format."
+              }
+            },
+            "files": 0,
+            "purpose": "Empty directory"
+          },
+          "components": {
+            "name": "components",
+            "subdirs": {
+              "ui": {
+                "name": "ui",
+                "subdirs": {},
+                "files": 35,
+                "purpose": "Directory with 35 files (35 code files)"
+              }
+            },
+            "files": 8,
+            "purpose": "Directory with 8 files (8 code files)"
+          },
+          "hooks": {
+            "name": "hooks",
+            "subdirs": {},
+            "files": 2,
+            "purpose": "Directory containing: I'll analyze this TypeScript file that implements a toast notification system and provide a detailed summary in JSON format.; Custom React hook to detect and track mobile device viewport state based on window width"
+          },
+          "lib": {
+            "name": "lib",
+            "subdirs": {},
+            "files": 1,
+            "purpose": "Looking at the TypeScript file, I'll analyze it and provide a detailed JSON summary."
+          },
+          "pages": {
+            "name": "pages",
+            "subdirs": {},
+            "files": 4,
+            "purpose": "Directory with 4 files (4 code files)"
+          }
+        },
+        "files": 5,
+        "purpose": "Directory with 5 files (3 code files, 2 other files)"
+      }
+    },
+    "files": 11,
+    "purpose": "Directory with 11 files (3 code files, 7 other files, 1 document files)"
+  }
+}

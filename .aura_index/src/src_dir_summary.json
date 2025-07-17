@@ -1,0 +1,54 @@
+{
+  "type": "directory",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src",
+  "name": "src",
+  "timestamp": "2025-07-17T17:06:22.725016",
+  "file_count": 5,
+  "subdirectory_count": 6,
+  "subdirectories": [
+    "contexts",
+    "integrations",
+    "components",
+    "hooks",
+    "lib",
+    "pages"
+  ],
+  "files": [
+    {
+      "name": "main.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the provided TSX code file and provide a detailed summary in the requested JSON format.",
+      "tokens_used": 22
+    },
+    {
+      "name": "index.css",
+      "type": "other",
+      "purpose": "This file defines the core design system and styling for the 'Agentboostr - AI Native Incubator Platform', including color palettes, gradients, shadows, transitions, and specific component styles, with support for both light and dark modes.",
+      "tokens_used": 296.40000000000003
+    },
+    {
+      "name": "App.css",
+      "type": "other",
+      "purpose": "This CSS file defines the visual styles for a web application, including layout, typography, and specific element styling such as logos, cards, and text links.",
+      "tokens_used": 226.20000000000002
+    },
+    {
+      "name": "vite-env.d.ts",
+      "type": "code",
+      "purpose": "TypeScript declaration file that provides type definitions for Vite's client-side APIs and environment variables",
+      "tokens_used": 145
+    },
+    {
+      "name": "App.tsx",
+      "type": "code",
+      "purpose": "Main application entry point that sets up routing, global providers, and core application structure for a React-based AI Score Hub project",
+      "tokens_used": 323
+    }
+  ],
+  "total_tokens": 1012.6,
+  "file_types": {
+    "code": 3,
+    "other": 2
+  },
+  "aggregated_purpose": "Directory with 5 files (3 code files, 2 other files)"
+}

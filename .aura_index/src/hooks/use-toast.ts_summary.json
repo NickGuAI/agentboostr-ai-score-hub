@@ -1,0 +1,19 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/hooks/use-toast.ts",
+  "file_type": "code",
+  "purpose": "I'll analyze this TypeScript file that implements a toast notification system and provide a detailed summary in JSON format.",
+  "timestamp": "2025-07-17T17:05:51.061186",
+  "functions": [],
+  "variables": [],
+  "classes": [],
+  "dependencies": [],
+  "sections": [],
+  "key_points": [],
+  "image_description": null,
+  "metadata": {
+    "patterns": [],
+    "issues": []
+  },
+  "tokens_used": 24,
+  "analysis_confidence": 0.9
+}

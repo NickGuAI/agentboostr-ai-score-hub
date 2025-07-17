@@ -1,0 +1,54 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/public/robots.txt",
+  "file_type": "document",
+  "purpose": "This document is a robots.txt file, which instructs web crawlers (like search engine bots) on which parts of a website they are allowed or disallowed to access.",
+  "timestamp": "2025-07-17T17:02:14.355177",
+  "functions": [],
+  "variables": [],
+  "classes": [],
+  "dependencies": [],
+  "sections": [
+    {
+      "title": "Googlebot directives",
+      "content_summary": "Section about Googlebot directives",
+      "subsections": []
+    },
+    {
+      "title": "Bingbot directives",
+      "content_summary": "Section about Bingbot directives",
+      "subsections": []
+    },
+    {
+      "title": "Twitterbot directives",
+      "content_summary": "Section about Twitterbot directives",
+      "subsections": []
+    },
+    {
+      "title": "facebookexternalhit directives",
+      "content_summary": "Section about facebookexternalhit directives",
+      "subsections": []
+    },
+    {
+      "title": "General directives for all other user agents",
+      "content_summary": "Section about General directives for all other user agents",
+      "subsections": []
+    }
+  ],
+  "key_points": [
+    "All specified web crawlers (Googlebot, Bingbot, Twitterbot, facebookexternalhit) are allowed to crawl the entire website.",
+    "A wildcard user-agent (*) also allows all other web crawlers to access the entire website.",
+    "The file explicitly grants full access to the website's content for all listed and unspecified bots."
+  ],
+  "image_description": null,
+  "metadata": {
+    "sections": [
+      "Googlebot directives",
+      "Bingbot directives",
+      "Twitterbot directives",
+      "facebookexternalhit directives",
+      "General directives for all other user agents"
+    ]
+  },
+  "tokens_used": 128.70000000000002,
+  "analysis_confidence": 0.8
+}

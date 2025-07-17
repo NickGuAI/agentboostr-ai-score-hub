@@ -1,0 +1,66 @@
+{
+  "type": "directory",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components",
+  "name": "components",
+  "timestamp": "2025-07-17T17:06:22.726065",
+  "file_count": 8,
+  "subdirectory_count": 1,
+  "subdirectories": [
+    "ui"
+  ],
+  "files": [
+    {
+      "name": "ProtectedRoute.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the ProtectedRoute.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "LanguageSwitcher.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the LanguageSwitcher.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "FeaturesSection.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the FeaturesSection.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "Header.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the Header.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "HowItWorksSection.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the HowItWorksSection.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "PricingSection.tsx",
+      "type": "code",
+      "purpose": "Looking at the PricingSection.tsx file, I'll analyze it and provide the detailed summary in JSON format.",
+      "tokens_used": 20
+    },
+    {
+      "name": "Footer.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the Footer.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "PageNavigation.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the PageNavigation.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    }
+  ],
+  "total_tokens": 132,
+  "file_types": {
+    "code": 8
+  },
+  "aggregated_purpose": "Directory with 8 files (8 code files)"
+}

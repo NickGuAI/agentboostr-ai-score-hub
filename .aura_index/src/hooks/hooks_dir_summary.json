@@ -1,0 +1,28 @@
+{
+  "type": "directory",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/hooks",
+  "name": "hooks",
+  "timestamp": "2025-07-17T17:06:22.726319",
+  "file_count": 2,
+  "subdirectory_count": 0,
+  "subdirectories": [],
+  "files": [
+    {
+      "name": "use-toast.ts",
+      "type": "code",
+      "purpose": "I'll analyze this TypeScript file that implements a toast notification system and provide a detailed summary in JSON format.",
+      "tokens_used": 24
+    },
+    {
+      "name": "use-mobile.tsx",
+      "type": "code",
+      "purpose": "Custom React hook to detect and track mobile device viewport state based on window width",
+      "tokens_used": 349
+    }
+  ],
+  "total_tokens": 373,
+  "file_types": {
+    "code": 2
+  },
+  "aggregated_purpose": "Directory containing: I'll analyze this TypeScript file that implements a toast notification system and provide a detailed summary in JSON format.; Custom React hook to detect and track mobile device viewport state based on window width"
+}

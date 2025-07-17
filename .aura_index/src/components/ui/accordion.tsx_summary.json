@@ -1,0 +1,19 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/components/ui/accordion.tsx",
+  "file_type": "code",
+  "purpose": "I'll analyze this TSX file which appears to be a custom accordion component implementation using Radix UI primitives.",
+  "timestamp": "2025-07-17T17:03:38.242336",
+  "functions": [],
+  "variables": [],
+  "classes": [],
+  "dependencies": [],
+  "sections": [],
+  "key_points": [],
+  "image_description": null,
+  "metadata": {
+    "patterns": [],
+    "issues": []
+  },
+  "tokens_used": 23,
+  "analysis_confidence": 0.9
+}

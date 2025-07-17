@@ -1,0 +1,22 @@
+{
+  "type": "directory",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/contexts",
+  "name": "contexts",
+  "timestamp": "2025-07-17T17:06:22.725558",
+  "file_count": 1,
+  "subdirectory_count": 0,
+  "subdirectories": [],
+  "files": [
+    {
+      "name": "AuthContext.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the AuthContext.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    }
+  ],
+  "total_tokens": 16,
+  "file_types": {
+    "code": 1
+  },
+  "aggregated_purpose": "I'll analyze the AuthContext.tsx file and provide a detailed summary in JSON format."
+}

@@ -1,0 +1,22 @@
+{
+  "type": "directory",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/integrations/supabase",
+  "name": "supabase",
+  "timestamp": "2025-07-17T17:06:22.727471",
+  "file_count": 1,
+  "subdirectory_count": 0,
+  "subdirectories": [],
+  "files": [
+    {
+      "name": "client.ts",
+      "type": "code",
+      "purpose": "I'll analyze the TypeScript code file and provide a detailed summary in JSON format.",
+      "tokens_used": 18
+    }
+  ],
+  "total_tokens": 18,
+  "file_types": {
+    "code": 1
+  },
+  "aggregated_purpose": "I'll analyze the TypeScript code file and provide a detailed summary in JSON format."
+}

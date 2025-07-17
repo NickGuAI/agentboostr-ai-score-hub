@@ -1,0 +1,40 @@
+{
+  "type": "directory",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/pages",
+  "name": "pages",
+  "timestamp": "2025-07-17T17:06:22.726751",
+  "file_count": 4,
+  "subdirectory_count": 0,
+  "subdirectories": [],
+  "files": [
+    {
+      "name": "GA4Callback.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the GA4Callback.tsx file and provide a detailed summary in JSON format.",
+      "tokens_used": 16
+    },
+    {
+      "name": "NotFound.tsx",
+      "type": "code",
+      "purpose": "I'll analyze the provided TSX code file and provide a detailed summary in JSON format.",
+      "tokens_used": 19
+    },
+    {
+      "name": "Projects.tsx",
+      "type": "code",
+      "purpose": "React component that displays a user's projects dashboard with project cards showing key metrics and allowing navigation to individual projects or creation of new ones",
+      "tokens_used": 419
+    },
+    {
+      "name": "Index.tsx",
+      "type": "code",
+      "purpose": "Main landing page component that serves as the home page of the application, composing various sections to create a complete page layout",
+      "tokens_used": 266
+    }
+  ],
+  "total_tokens": 720,
+  "file_types": {
+    "code": 4
+  },
+  "aggregated_purpose": "Directory with 4 files (4 code files)"
+}

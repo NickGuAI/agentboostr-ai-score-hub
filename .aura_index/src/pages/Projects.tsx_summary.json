@@ -1,0 +1,91 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/pages/Projects.tsx",
+  "file_type": "code",
+  "purpose": "React component that displays a user's projects dashboard with project cards showing key metrics and allowing navigation to individual projects or creation of new ones",
+  "timestamp": "2025-07-17T17:06:09.760912",
+  "functions": [
+    {
+      "name": "Projects",
+      "input_params": [],
+      "output_type": "JSX.Element",
+      "core_logic": "Main component that fetches and displays user's projects in a grid layout with navigation capabilities",
+      "line_number": 0
+    },
+    {
+      "name": "loadProjects",
+      "input_params": [],
+      "output_type": "Promise<void>",
+      "core_logic": "Async function that fetches project overview data from Supabase for the authenticated user, ordered by creation date",
+      "line_number": 0
+    }
+  ],
+  "variables": [
+    {
+      "name": "projects",
+      "purpose": "Stores the list of project overview data",
+      "usage": "State variable populated by loadProjects and mapped to render project cards",
+      "line_number": 0
+    },
+    {
+      "name": "loading",
+      "purpose": "Tracks the loading state of project data",
+      "usage": "Controls display of loading spinner vs content",
+      "line_number": 0
+    },
+    {
+      "name": "user",
+      "purpose": "Current authenticated user from auth context",
+      "usage": "Used to filter projects by owner_id and determine if data should be loaded",
+      "line_number": 0
+    },
+    {
+      "name": "authLoading",
+      "purpose": "Authentication loading state from auth context",
+      "usage": "Prevents premature data loading before auth state is determined",
+      "line_number": 0
+    }
+  ],
+  "classes": [],
+  "dependencies": [
+    "react",
+    "react-router-dom",
+    "@/integrations/supabase/client",
+    "@/contexts/LanguageContext",
+    "@/contexts/AuthContext",
+    "@/components/ProtectedRoute",
+    "@/components/PageNavigation",
+    "@/components/ui/button",
+    "@/components/ui/card",
+    "@/components/ui/badge",
+    "lucide-react"
+  ],
+  "sections": [],
+  "key_points": [
+    "Protected route requiring authentication",
+    "Displays project overview data from Supabase view",
+    "Shows project metrics including MRR, growth rate, and scores",
+    "Responsive grid layout for project cards",
+    "Includes loading states and empty state handling"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Context API for authentication and language management",
+      "Protected route pattern for authenticated-only access",
+      "Loading state management with conditional rendering",
+      "Empty state handling with call-to-action",
+      "Responsive grid layout using Tailwind CSS",
+      "Type-safe database queries using generated Supabase types"
+    ],
+    "issues": [
+      "Language context is imported but not actively used (only destructured 't' function)",
+      "No error state UI - errors are only logged to console",
+      "Hard-coded Chinese text should use translation function",
+      "No pagination for large numbers of projects",
+      "No search or filter functionality for projects",
+      "MRR display doesn't include currency formatting or localization"
+    ]
+  },
+  "tokens_used": 419,
+  "analysis_confidence": 0.9
+}

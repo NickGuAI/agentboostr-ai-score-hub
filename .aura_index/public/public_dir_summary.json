@@ -1,0 +1,29 @@
+{
+  "type": "directory",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/public",
+  "name": "public",
+  "timestamp": "2025-07-17T17:06:22.724441",
+  "file_count": 2,
+  "subdirectory_count": 0,
+  "subdirectories": [],
+  "files": [
+    {
+      "name": "placeholder.svg",
+      "type": "image",
+      "purpose": "I cannot access the image file at `/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/public/placeholder.svg` because it is outside the current working directory `/Users/yugu/Desktop/Cool Projects/Gehirn/project_aura/Analysis`.",
+      "tokens_used": 45.5
+    },
+    {
+      "name": "robots.txt",
+      "type": "document",
+      "purpose": "This document is a robots.txt file, which instructs web crawlers (like search engine bots) on which parts of a website they are allowed or disallowed to access.",
+      "tokens_used": 128.70000000000002
+    }
+  ],
+  "total_tokens": 174.20000000000002,
+  "file_types": {
+    "image": 1,
+    "document": 1
+  },
+  "aggregated_purpose": "Directory containing: I cannot access the image file at `/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/public/placeholder.svg` because it is outside the current working directory `/Users/yugu/Desktop/Cool Projects/Gehirn/project_aura/Analysis`.; This document is a robots.txt file, which instructs web crawlers (like search engine bots) on which parts of a website they are allowed or disallowed to access."
+}

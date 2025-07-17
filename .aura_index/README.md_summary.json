@@ -1,0 +1,57 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/README.md",
+  "file_type": "document",
+  "purpose": "This document serves as a README for a project created with Lovable, providing instructions on how to edit, deploy, and manage the project, along with information about the technologies used.",
+  "timestamp": "2025-07-17T17:02:14.436009",
+  "functions": [],
+  "variables": [],
+  "classes": [],
+  "dependencies": [],
+  "sections": [
+    {
+      "title": "Project info",
+      "content_summary": "Section about Project info",
+      "subsections": []
+    },
+    {
+      "title": "How can I edit this code?",
+      "content_summary": "Section about How can I edit this code?",
+      "subsections": []
+    },
+    {
+      "title": "What technologies are used for this project?",
+      "content_summary": "Section about What technologies are used for this project?",
+      "subsections": []
+    },
+    {
+      "title": "How can I deploy this project?",
+      "content_summary": "Section about How can I deploy this project?",
+      "subsections": []
+    },
+    {
+      "title": "Can I connect a custom domain to my Lovable project?",
+      "content_summary": "Section about Can I connect a custom domain to my Lovable project?",
+      "subsections": []
+    }
+  ],
+  "key_points": [
+    "The project is a 'Lovable project' accessible via a specific URL.",
+    "Code can be edited using Lovable's platform, a local IDE (by cloning the repository), directly on GitHub, or through GitHub Codespaces.",
+    "Local development requires Node.js and npm, with steps provided for cloning, installing dependencies, and starting the development server.",
+    "The project is built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.",
+    "Deployment is managed through the Lovable platform.",
+    "Custom domains can be connected to the Lovable project via its settings."
+  ],
+  "image_description": null,
+  "metadata": {
+    "sections": [
+      "Project info",
+      "How can I edit this code?",
+      "What technologies are used for this project?",
+      "How can I deploy this project?",
+      "Can I connect a custom domain to my Lovable project?"
+    ]
+  },
+  "tokens_used": 198.9,
+  "analysis_confidence": 0.8
+}

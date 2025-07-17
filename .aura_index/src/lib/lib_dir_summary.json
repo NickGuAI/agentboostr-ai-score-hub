@@ -1,0 +1,22 @@
+{
+  "type": "directory",
+  "path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/lib",
+  "name": "lib",
+  "timestamp": "2025-07-17T17:06:22.726501",
+  "file_count": 1,
+  "subdirectory_count": 0,
+  "subdirectories": [],
+  "files": [
+    {
+      "name": "utils.ts",
+      "type": "code",
+      "purpose": "Looking at the TypeScript file, I'll analyze it and provide a detailed JSON summary.",
+      "tokens_used": 18
+    }
+  ],
+  "total_tokens": 18,
+  "file_types": {
+    "code": 1
+  },
+  "aggregated_purpose": "Looking at the TypeScript file, I'll analyze it and provide a detailed JSON summary."
+}

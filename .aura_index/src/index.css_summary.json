@@ -1,0 +1,28 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/index.css",
+  "file_type": "other",
+  "purpose": "This file defines the core design system and styling for the 'Agentboostr - AI Native Incubator Platform', including color palettes, gradients, shadows, transitions, and specific component styles, with support for both light and dark modes.",
+  "timestamp": "2025-07-17T17:02:56.778817",
+  "functions": [],
+  "variables": [],
+  "classes": [],
+  "dependencies": [],
+  "sections": [],
+  "key_points": [],
+  "image_description": null,
+  "metadata": {
+    "key_content": [
+      "Tailwind CSS directives for base, components, and utilities.",
+      "Extensive CSS variable definitions within ':root' for light mode, covering brand colors (primary, secondary, accent), background, foreground, card, popover, muted, destructive, border, input, ring, and radius.",
+      "Custom gradients (primary, hero, card), AI-themed glow effects, professional shadows, and smooth transitions defined as CSS variables.",
+      "Specific sidebar color variables.",
+      "Dark mode color overrides defined within the '.dark' class, adjusting all relevant color variables for a dark theme.",
+      "Global base styles applying border colors and setting body background, text color, and font family.",
+      "Custom CSS classes for applying the defined gradients, glow effects, shadows, and transitions (e.g., '.gradient-primary', '.glow-primary', '.shadow-soft', '.transition-smooth').",
+      "Agent Score indicator styles using Tailwind's gradient utilities for different score levels (e.g., '.score-a-plus', '.score-b', '.score-c-plus')."
+    ],
+    "summary": "The `index.css` file is the central stylesheet for the Agentboostr platform, built on Tailwind CSS. It establishes a detailed design system by defining numerous CSS variables for colors, gradients, shadows, and transitions, supporting both light and dark themes. It also includes specific styles for UI elements like sidebars and 'Agent Score' indicators, ensuring a consistent and branded visual identity throughout the application."
+  },
+  "tokens_used": 296.40000000000003,
+  "analysis_confidence": 0.8
+}

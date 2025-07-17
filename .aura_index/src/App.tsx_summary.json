@@ -1,0 +1,69 @@
+{
+  "file_path": "/Users/yugu/Desktop/Cool Projects/Gehirn/agentboostr-ai-score-hub-main/src/App.tsx",
+  "file_type": "code",
+  "purpose": "Main application entry point that sets up routing, global providers, and core application structure for a React-based AI Score Hub project",
+  "timestamp": "2025-07-17T17:02:48.302510",
+  "functions": [
+    {
+      "name": "App",
+      "input_params": [],
+      "output_type": "JSX.Element - The complete application component tree",
+      "core_logic": "Wraps the entire application with necessary providers (QueryClient, Language, Tooltip) and sets up routing structure with all application pages",
+      "line_number": 0
+    }
+  ],
+  "variables": [
+    {
+      "name": "queryClient",
+      "purpose": "Instance of QueryClient for managing server state and caching",
+      "usage": "Passed to QueryClientProvider to enable React Query functionality throughout the app",
+      "line_number": 0
+    }
+  ],
+  "classes": [],
+  "dependencies": [
+    "@/components/ui/toaster",
+    "@/components/ui/sonner",
+    "@/components/ui/tooltip",
+    "@tanstack/react-query",
+    "react-router-dom",
+    "@/contexts/LanguageContext",
+    "./pages/Index",
+    "./pages/NotFound",
+    "./pages/Projects",
+    "./pages/CreateProject",
+    "./pages/ProjectDetail",
+    "./pages/Leaderboard",
+    "./pages/StripeCallback",
+    "./pages/GA4Callback",
+    "./pages/Auth",
+    "./pages/TestSetup"
+  ],
+  "sections": [],
+  "key_points": [
+    "Sets up React Router for client-side routing",
+    "Configures React Query for server state management",
+    "Provides global context providers for language, tooltips, and notifications",
+    "Defines all application routes including authentication, projects, leaderboard, and OAuth callbacks",
+    "Implements a catch-all route for 404 handling"
+  ],
+  "image_description": null,
+  "metadata": {
+    "patterns": [
+      "Provider composition pattern for global state management",
+      "Declarative routing with React Router v6",
+      "Separation of concerns with dedicated page components",
+      "OAuth callback handling pattern for Stripe and GA4 integrations",
+      "Catch-all route pattern for 404 handling"
+    ],
+    "issues": [
+      "No error boundary implementation for catching React errors",
+      "QueryClient is created without custom configuration which might need optimization for specific use cases",
+      "No route-level code splitting/lazy loading which could impact initial bundle size",
+      "No authentication guard/protected route wrapper visible at this level",
+      "Multiple toast/notification systems (Toaster and Sonner) might cause confusion"
+    ]
+  },
+  "tokens_used": 323,
+  "analysis_confidence": 0.9
+}

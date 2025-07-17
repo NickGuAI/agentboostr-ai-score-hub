@@ -1,0 +1,19 @@
+project_id = "nzwnbkayxdnutozjiecl"
+
+[functions.stripe-auth]
+verify_jwt = false
+
+[functions.sync-stripe-data]
+verify_jwt = false
+
+[functions.calculate-score]
+verify_jwt = false
+
+[functions.ga4-auth]
+verify_jwt = false
+
+[functions.sync-ga4-data]
+verify_jwt = false
+
+[functions.ga4-callback]
+verify_jwt = false

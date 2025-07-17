@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Agentboostr Design System - AI Native Incubator Platform */
+
+@layer base {
+  :root {
+    /* Core brand colors - Deep blue primary theme */
+    --background: 0 0% 100%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    /* Deep blue primary (#1E3A8A equivalent in HSL) */
+    --primary: 221 83% 33%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Tech blue secondary (#3B82F6 equivalent in HSL) */
+    --secondary: 221 83% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Success green accent (#10B981 equivalent in HSL) */
+    --accent: 160 84% 39%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221 83% 33%;
+
+    --radius: 0.75rem;
+
+    /* Custom gradients for Agentboostr */
+    --gradient-primary: linear-gradient(135deg, hsl(221 83% 33%), hsl(221 83% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(221 83% 33%) 0%, hsl(221 83% 60%) 50%, hsl(160 84% 39%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
+    
+    /* AI-themed effects */
+    --glow-primary: 0 0 40px hsl(221 83% 60% / 0.3);
+    --glow-accent: 0 0 30px hsl(160 84% 39% / 0.4);
+    
+    /* Professional shadows */
+    --shadow-soft: 0 2px 10px hsl(221 83% 33% / 0.08);
+    --shadow-medium: 0 8px 30px hsl(221 83% 33% / 0.12);
+    --shadow-strong: 0 20px 60px hsl(221 83% 33% / 0.15);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode with Agentboostr branding */
+    --background: 221 83% 8%;
+    --foreground: 0 0% 95%;
+
+    --card: 221 83% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 221 83% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 221 83% 60%;
+    --primary-foreground: 221 83% 8%;
+
+    --secondary: 221 40% 20%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 221 40% 15%;
+    --muted-foreground: 215 20% 70%;
+
+    --accent: 160 84% 45%;
+    --accent-foreground: 221 83% 8%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 221 40% 20%;
+    --input: 221 40% 20%;
+    --ring: 221 83% 60%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(221 83% 60%), hsl(221 83% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(221 83% 25%) 0%, hsl(221 83% 40%) 50%, hsl(160 84% 35%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(221 83% 10%) 0%, hsl(221 40% 15%) 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  /* Custom component styles for Agentboostr */
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+  
+  .glow-primary {
+    box-shadow: var(--glow-primary);
+  }
+  
+  .glow-accent {
+    box-shadow: var(--glow-accent);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-medium {
+    box-shadow: var(--shadow-medium);
+  }
+  
+  .shadow-strong {
+    box-shadow: var(--shadow-strong);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-spring {
+    transition: var(--transition-spring);
+  }
+
+  /* Agent Score indicator styles */
+  .score-a-plus { @apply bg-gradient-to-r from-green-500 to-emerald-400 text-white; }
+  .score-a { @apply bg-gradient-to-r from-green-400 to-emerald-300 text-white; }
+  .score-b-plus { @apply bg-gradient-to-r from-blue-500 to-cyan-400 text-white; }
+  .score-b { @apply bg-gradient-to-r from-blue-400 to-cyan-300 text-white; }
+  .score-c-plus { @apply bg-gradient-to-r from-orange-500 to-amber-400 text-white; }
+  .score-c { @apply bg-gradient-to-r from-orange-400 to-amber-300 text-white; }
+}
